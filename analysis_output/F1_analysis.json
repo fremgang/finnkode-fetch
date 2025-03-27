@@ -1,10 +1,10 @@
 {
-  "code": "F13.7",
-  "name": "Residual tilstand eller sent innsettende psykotisk lidelse som skyldes bruk av sedativum eller hypnotikum",
-  "analyzed_at": "2025-03-27T18:50:07.891946",
+  "code": "F16",
+  "name": "Psykiske lidelser og atferdsforstyrrelser som skyldes bruk av hallusinogener",
+  "analyzed_at": "2025-03-27T18:52:24.534524",
   "related_diagnoses": {},
   "details": {
-    "description": "Residual tilstand eller sent innsettende psykotisk lidelse som skyldes bruk av sedativum eller hypnotikum",
+    "description": "Psykiske lidelser og atferdsforstyrrelser som skyldes bruk av hallusinogener",
     "includes": "",
     "excludes": "",
     "parent": "",

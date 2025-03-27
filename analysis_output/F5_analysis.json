@@ -1,0 +1,13 @@
+{
+  "code": "F55.0",
+  "name": "Misbruk av antidepressivum",
+  "analyzed_at": "2025-03-27T18:52:29.139744",
+  "related_diagnoses": {},
+  "details": {
+    "description": "Misbruk av antidepressivum",
+    "includes": "",
+    "excludes": "",
+    "parent": "",
+    "status": ""
+  }
+}
