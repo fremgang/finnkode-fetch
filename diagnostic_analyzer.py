@@ -496,15 +496,130 @@ class DiagnosticAnalyzer:
         print(f"Saved relationship visualization to {output_file}")
         return output_file
 
+def fetch_f_codes_via_search():
+    """
+    Use the search API to fetch mental disorder codes.
+    This is an alternative approach when the hierarchy API doesn't
+    return the expected F codes.
+    
+    Returns:
+        list: List of F code strings
+    """
+    print("Fetching mental disorder codes via search API...")
+    analyzer = DiagnosticAnalyzer()
+    
+    # Search terms to find mental disorders
+    search_terms = [
+        "mental disorders", 
+        "psykisk", 
+        "F00", "F1", "F2", "F3", "F4", "F5", "F6", "F7", "F8", "F9"
+    ]
+    
+    all_codes = set()
+    
+    # Search for each term
+    for term in search_terms:
+        print(f"Searching for: {term}")
+        results = analyzer.search_codes(term, per_page=100)
+        
+        for result in results:
+            code = result.get("code_value", "")
+            if code.startswith("F") and len(code) >= 2:
+                all_codes.add(code)
+    
+    # Sort the codes
+    sorted_codes = sorted(list(all_codes))
+    print(f"Found {len(sorted_codes)} F codes")
+    
+    return sorted_codes
+
+def fetch_f_codes_from_local_hierarchy():
+    """
+    Attempt to fetch F codes from the most recently downloaded hierarchy.
+    
+    Returns:
+        list: List of F code strings
+    """
+    print("Attempting to extract F codes from local hierarchy file...")
+    
+    # Find the most recent hierarchy file
+    output_dir = "output"
+    hierarchy_files = [f for f in os.listdir(output_dir) if f.startswith("complete_hierarchy_") and f.endswith(".json")]
+    
+    if not hierarchy_files:
+        print("No local hierarchy files found.")
+        return []
+    
+    # Use the most recent file
+    latest_file = sorted(hierarchy_files)[-1]
+    hierarchy_path = os.path.join(output_dir, latest_file)
+    print(f"Using hierarchy file: {hierarchy_path}")
+    
+    try:
+        with open(hierarchy_path, 'r', encoding='utf-8') as f:
+            hierarchy_data = json.load(f)
+        
+        # Extract F codes from the hierarchy
+        f_codes = []
+        
+        def extract_codes(node):
+            if isinstance(node, dict) and 'codeValue' in node:
+                code = node['codeValue']
+                if isinstance(code, str) and code.startswith('F') and len(code) > 1:
+                    f_codes.append(code)
+            
+            # Process children
+            if isinstance(node, dict) and 'children' in node and node['children']:
+                for child in node['children']:
+                    extract_codes(child)
+        
+        # Process the hierarchy
+        extract_codes(hierarchy_data)
+        
+        print(f"Extracted {len(f_codes)} F codes from local hierarchy")
+        return f_codes
+        
+    except Exception as e:
+        print(f"Error extracting from local hierarchy: {e}")
+        return []
+
+def fetch_f_codes_manually():
+    """
+    Generate a list of common F codes manually when other methods fail.
+    
+    Returns:
+        list: List of F code strings
+    """
+    print("Generating a list of common F codes manually...")
+    
+    # Generate common F code patterns
+    f_codes = []
+    
+    # Major categories (F00-F99)
+    for i in range(100):
+        f_codes.append(f"F{i:02d}")
+    
+    # Common subcodes
+    for i in range(100):
+        for j in range(10):
+            f_codes.append(f"F{i:02d}.{j}")
+    
+    print(f"Generated {len(f_codes)} common F codes")
+    return f_codes
+
 def fetch_complete_f_codes():
     """
     Fetch a comprehensive set of F codes (mental disorders).
+    Tries multiple methods in case one fails.
     
     Returns:
-        list: List of F code dictionaries
+        list: List of F code strings
     """
-    print("Fetching mental disorder (F) codes...")
+    print("Fetching mental disorder (F) codes using multiple methods...")
+    
+    # Method 1: Try via API hierarchy
     url = f"{BASE_API_URL}/V/hierarchy"
+    f_codes = []
     
     try:
         response = requests.get(url, headers=API_HEADERS)
@@ -512,30 +627,50 @@ def fetch_complete_f_codes():
         if response.status_code == 200:
             data = response.json()
             
-            # Extract F codes recursively
-            f_codes = []
+            # Save raw data for inspection
+            timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+            raw_file = os.path.join(OUTPUT_DIR, f"raw_hierarchy_{timestamp}.json")
+            with open(raw_file, 'w', encoding='utf-8') as f:
+                json.dump(data, f, ensure_ascii=False, indent=2)
+            print(f"Saved raw hierarchy data to {raw_file}")
             
+            # Extract F codes recursively
             def extract_f_codes(node):
                 if isinstance(node, dict) and 'codeValue' in node:
                     code_value = node.get('codeValue')
                     if isinstance(code_value, str) and code_value.startswith('F') and len(code_value) > 1:
-                        f_codes.append(node)
+                        f_codes.append(code_value)
                 
-                if isinstance(node, dict) and 'children' in node and node['children']:
+                if isinstance(node, dict) and 'children' in node and isinstance(node['children'], list):
                     for child in node['children']:
                         extract_f_codes(child)
             
             # Start extraction from the root
             extract_f_codes(data)
             
-            print(f"Found {len(f_codes)} F codes")
-            return f_codes
+            if f_codes:
+                print(f"Found {len(f_codes)} F codes from API hierarchy")
+                return f_codes
+            else:
+                print("No F codes found in API hierarchy, trying alternative methods...")
         else:
-            print(f"Error {response.status_code} fetching F codes")
-            return []
+            print(f"API error: {response.status_code}")
+            
     except Exception as e:
-        print(f"Error fetching F codes: {e}")
-        return []
+        print(f"Error fetching from API: {e}")
+    
+    # Method 2: Try extracting from local hierarchy file
+    local_f_codes = fetch_f_codes_from_local_hierarchy()
+    if local_f_codes:
+        return local_f_codes
+    
+    # Method 3: Use search API
+    search_f_codes = fetch_f_codes_via_search()
+    if search_f_codes:
+        return search_f_codes
+    
+    # Method 4: Generate manually
+    return fetch_f_codes_manually()
 
 def analyze_f_code_clusters():
     """
@@ -551,18 +686,26 @@ def analyze_f_code_clusters():
         print("No F codes found")
         return None, None
     
-    # Extract code values
-    code_values = [code['codeValue'] for code in f_codes]
+    # Ensure we have unique codes
+    f_codes = list(set(f_codes))
+    print(f"Analyzing {len(f_codes)} unique F codes")
+    
+    # Save the list of F codes for reference
+    timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+    codes_file = os.path.join(OUTPUT_DIR, f"f_codes_list_{timestamp}.json")
+    with open(codes_file, 'w', encoding='utf-8') as f:
+        json.dump(f_codes, f, ensure_ascii=False, indent=2)
+    print(f"Saved F codes list to {codes_file}")
     
     # Create analyzer
     analyzer = DiagnosticAnalyzer()
     
     # Analyze relationships
-    relationships = analyzer.analyze_code_relationships(code_values)
+    relationships = analyzer.analyze_code_relationships(f_codes)
     
     # For each main category (F0, F1, etc.), analyze relationships
     categories = {}
-    for code in code_values:
+    for code in f_codes:
         if len(code) >= 2:
             prefix = code[:2]
             if prefix in categories:
@@ -584,11 +727,14 @@ def analyze_f_code_clusters():
             )
             
             # Visualize relationships
-            analyzer.visualize_relationships(
-                representative,
-                relationships,
-                output_file=os.path.join(OUTPUT_DIR, f"{category}_relationships.png")
-            )
+            try:
+                analyzer.visualize_relationships(
+                    representative,
+                    relationships,
+                    output_file=os.path.join(OUTPUT_DIR, f"{category}_relationships.png")
+                )
+            except Exception as e:
+                print(f"Error visualizing relationships for {category}: {e}")
     
     return analyzer, relationships
 
