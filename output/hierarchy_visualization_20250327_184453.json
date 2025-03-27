@@ -1,0 +1,161 @@
+{
+  "id": "ICD-10",
+  "name": "Den internasjonale statistiske klassifikasjonen av sykdommer og beslektede helseproblemer",
+  "value": 1,
+  "children": [
+    {
+      "id": "I",
+      "name": "(A00-B99) Visse infeksjonssykdommer og parasittsykdommer",
+      "value": 1,
+      "children": [],
+      "parent": "ICD-10"
+    },
+    {
+      "id": "II",
+      "name": "(C00-D48) Svulster",
+      "value": 1,
+      "children": [],
+      "parent": "ICD-10"
+    },
+    {
+      "id": "III",
+      "name": "(D50-D89) Sykdommer i blod og bloddannende organer og visse tilstander som angår immunsystemet",
+      "value": 1,
+      "children": [],
+      "parent": "ICD-10"
+    },
+    {
+      "id": "IV",
+      "name": "(E00-E90) Endokrine sykdommer, ernæringssykdommer og metabolske forstyrrelser",
+      "value": 1,
+      "children": [],
+      "parent": "ICD-10"
+    },
+    {
+      "id": "V",
+      "name": "(F00-F99) Psykiske lidelser og atferdsforstyrrelser",
+      "value": 1,
+      "children": [],
+      "parent": "ICD-10"
+    },
+    {
+      "id": "VI",
+      "name": "(G00-G99) Sykdommer i nervesystemet",
+      "value": 1,
+      "children": [],
+      "parent": "ICD-10"
+    },
+    {
+      "id": "VII",
+      "name": "(H00-H59) Sykdommer i øyet og øyets omgivelser",
+      "value": 1,
+      "children": [],
+      "parent": "ICD-10"
+    },
+    {
+      "id": "VIII",
+      "name": "(H60-H95) Sykdommer i øre og ørebensknute (processus mastoideus)",
+      "value": 1,
+      "children": [],
+      "parent": "ICD-10"
+    },
+    {
+      "id": "IX",
+      "name": "(I00-I99) Sykdommer i sirkulasjonssystemet",
+      "value": 1,
+      "children": [],
+      "parent": "ICD-10"
+    },
+    {
+      "id": "X",
+      "name": "(J00-J99) Sykdommer i åndedrettssystemet",
+      "value": 1,
+      "children": [],
+      "parent": "ICD-10"
+    },
+    {
+      "id": "XI",
+      "name": "(K00-K93) Sykdommer i fordøyelsessystemet",
+      "value": 1,
+      "children": [],
+      "parent": "ICD-10"
+    },
+    {
+      "id": "XII",
+      "name": "(L00-L99) Sykdommer i hud og underhud",
+      "value": 1,
+      "children": [],
+      "parent": "ICD-10"
+    },
+    {
+      "id": "XIII",
+      "name": "(M00-M99) Sykdommer i muskel-skjelettsystemet og bindevev",
+      "value": 1,
+      "children": [],
+      "parent": "ICD-10"
+    },
+    {
+      "id": "XIV",
+      "name": "(N00-N99) Sykdommer i urin- og kjønnsorganer",
+      "value": 1,
+      "children": [],
+      "parent": "ICD-10"
+    },
+    {
+      "id": "XV",
+      "name": "(O00-O99) Svangerskap, fødsel og barseltid",
+      "value": 1,
+      "children": [],
+      "parent": "ICD-10"
+    },
+    {
+      "id": "XVI",
+      "name": "(P00-P96) Visse tilstander som oppstår i perinatalperioden",
+      "value": 1,
+      "children": [],
+      "parent": "ICD-10"
+    },
+    {
+      "id": "XVII",
+      "name": "(Q00-Q99) Medfødte misdannelser, deformiteter og kromosomavvik",
+      "value": 1,
+      "children": [],
+      "parent": "ICD-10"
+    },
+    {
+      "id": "XVIII",
+      "name": "(R00-R99) Symptomer, tegn, unormale kliniske funn og laboratoriefunn, ikke klassifisert annet sted",
+      "value": 1,
+      "children": [],
+      "parent": "ICD-10"
+    },
+    {
+      "id": "XIX",
+      "name": "(S00-T98) Skader, forgiftninger og visse andre konsekvenser av ytre årsaker",
+      "value": 1,
+      "children": [],
+      "parent": "ICD-10"
+    },
+    {
+      "id": "XX",
+      "name": "(V0n-Y98) Ytre årsaker til sykdommer, skader og dødsfall",
+      "value": 1,
+      "children": [],
+      "parent": "ICD-10"
+    },
+    {
+      "id": "XXI",
+      "name": "(Z00-Z99) Faktorer som har betydning for helsetilstand og kontakt med helsetjenesten",
+      "value": 1,
+      "children": [],
+      "parent": "ICD-10"
+    },
+    {
+      "id": "XXII",
+      "name": "Koder for spesielle formål (U00-U85)",
+      "value": 1,
+      "children": [],
+      "parent": "ICD-10"
+    }
+  ]
+}
