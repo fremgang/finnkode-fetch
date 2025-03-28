@@ -1,0 +1,181 @@
+{
+  "/api/code-systems": {
+    "status": 200,
+    "success": true,
+    "data_sample": {
+      "name": "ICPC-2",
+      "relations": [
+        {
+          "rel": "codesystem#get-all",
+          "href": "app-fsml-fat-prod-noe-1.azurewebsites.net/icpc2"
+        },
+        {
+          "rel": "codesystem#lookup-code",
+          "href": "app-fsml-fat-prod-noe-1.azurewebsites.net/icpc2/{code}"
+        },
+        {
+          "rel": "codesystem#lookup-code-children",
+          "href": "app-fsml-fat-prod-noe-1.azurewebsites.net/icpc2/{code}/children"
+        },
+        {
+          "rel": "codesystem#lookup-code-descendants",
+          "href": "app-fsml-fat-prod-noe-1.azurewebsites.net/icpc2/{code}/descendants"
+        },
+        {
+          "rel": "codesystem#lookup-code-hierarchy",
+          "href": "app-fsml-fat-prod-noe-1.azurewebsites.net/icpc2/{code}/hierarchy"
+        },
+        {
+          "rel": "codesystem#lookup-code-chapter-descendants",
+          "href": "app-fsml-fat-prod-noe-1.azurewebsites.net/icpc2/{code}/chapter"
+        }
+      ]
+    }
+  },
+  "/api/medicines/clinical-drugs": {
+    "status": 200,
+    "success": true,
+    "data_sample": {
+      "conceptId": "1025971000202108",
+      "fsn": "Product containing precisely folic acid 200 microgram/1 milliliter conventional release oral liquid (clinical drug)",
+      "termNorwegianSCT": {
+        "value": "folsyre mikstur 200 mikrog/ml",
+        "caseSignificance": "CASE_INSENSITIVE"
+      },
+      "termEnglishSCT": {
+        "value": "Folic acid 200 microgram/mL oral liquid",
+        "caseSignificance": "INITIAL_CHARACTER_CASE_INSENSITIVE"
+      },
+      "vsoApplicable": true,
+      "detailsOnClinicalDrug": {
+        "medicinalProductForm": {
+          "conceptId": "779317005",
+          "fsn": "Product containing only folic acid in oral dose form (medicinal product form)",
+          "termNorwegianSCT": {
+            "value": "folsyre oral",
+            "caseSignificance": "CASE_INSENSITIVE"
+          },
+          "countOfBaseActiveIngredient": "1",
+          "hasActiveIngredient": [
+            {
+              "conceptId": "63718003",
+              "fsn": "Folic acid (substance)",
+              "termNorwegianSCT": {
+                "value": "folsyre"
+              }
+            }
+          ],
+          "manufacturedDoseForm": {
+            "conceptId": "385268001",
+            "fsn": "Oral dose form (dose form)",
+            "termNorwegianSCT": {
+              "value": "oral"
+            }
+          },
+          "medicinalProduct": {
+            "conceptId": "776022004",
+            "fsn": "Product containing only folic acid (medicinal product)",
+            "termNorwegianSCT": {
+              "value": "folsyre - produkt",
+              "caseSignificance": "CASE_INSENSITIVE"
+            },
+            "countOfBaseActiveIngredient": "1",
+            "hasActiveIngredient": [
+              {
+                "conceptId": "63718003",
+                "fsn": "Folic acid (substance)",
+                "termNorwegianSCT": {
+                  "value": "folsyre"
+                }
+              }
+            ]
+          }
+        },
+        "isA": "folsyre oral",
+        "manufacturedDoseForm": {
+          "conceptId": "1007531000202101",
+          "fsn": "Conventional release oral liquid (dose form)",
+          "termNorwegianSCT": {
+            "value": "mikstur, v\u00e6ske"
+          }
+        },
+        "countOfBaseActiveIngredients": "1",
+        "substances": [
+          {
+            "conceptId": "63718003",
+            "preciseActiveIngredient": {
+              "conceptId": "63718003",
+              "fsn": "Folic acid (substance)",
+              "termNorwegianSCT": {
+                "value": "folsyre"
+              }
+            },
+            "basisOfStrengthSubstance": {
+              "conceptId": "63718003",
+              "fsn": "Folic acid (substance)",
+              "termNorwegianSCT": {
+                "value": "folsyre"
+              }
+            },
+            "concentrationStrengthNumeratorValue": "200",
+            "concentrationStrengthNumeratorUnit": "mikrogram",
+            "concentrationStrengthDenominatorValue": "1",
+            "concentrationStrengthDenominatorUnit": "ml"
+          }
+        ]
+      },
+      "merkevarer": [
+        {
+          "festMerkevareId": "92981940-730E-46DC-AB25-826D07AAB0CF",
+          "varenavn": "Folsyre NAF mikst 0,2 mg/ml",
+          "produsent": "\u00c5s produksjonslab AS",
+          "administrasjonsveiKode": "53",
+          "administrasjonsveiNavn": "Oral bruk",
+          "atcKode": "B03BB01",
+          "atcFarmakoTerGrNorsk": "Folsyre",
+          "legemiddelformKort": "Mikstur",
+          "legemiddelformKortId": "9",
+          "legemiddelformLang": "Mikstur"
+        }
+      ]
+    }
+  },
+  "/api/diagnosis/icpc2": {
+    "status": 200,
+    "success": true,
+    "data_sample": {
+      "conceptId": "72552008",
+      "fsn": "Feeding problems in newborn (finding)",
+      "termNorwegianSCT": {
+        "value": "problem med matinntak hos nyf\u00f8dt",
+        "caseSignificance": "CASE_INSENSITIVE"
+      },
+      "termEnglishSCT": {
+        "value": "Feeding problems in newborn",
+        "caseSignificance": "CASE_INSENSITIVE"
+      },
+      "released": true,
+      "releasedEffectiveTime": "20240415",
+      "icpc2Code": "T04",
+      "icpc2Term": "Ern\u00e6ringsproblem hos spedbarn/barn",
+      "mapGroup": "1",
+      "mapPriority": "1"
+    }
+  },
+  "/api/fest/merkevarer": {
+    "status": 200,
+    "success": true,
+    "data_sample": {
+      "id": "ID_000A27B8-3930-4264-80F9-CDB14C895662",
+      "varenavn": "Kodimagnyl Ikke-stoppende dak tab 9,6 mg/500 mg/150 mg",
+      "produsent": "Orifarm Healthcare",
+      "administrasjonsveiKode": "53",
+      "administrasjonsveiNavn": "Oral bruk",
+      "atcKode": "N02AJ07",
+      "atcFarmakoTerGrNorsk": "Kodein og acetylsalisylsyre",
+      "legemiddelformKort": "Tablett",
+      "legemiddelformKortId": "53",
+      "legemiddelformLang": "Tablett, filmdrasjert"
+    }
+  }
+}

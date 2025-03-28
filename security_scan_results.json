@@ -1,0 +1,51 @@
+[
+  {
+    "type": "No rate limiting detected",
+    "endpoint": "https://fat.kote.helsedirektoratet.no/api/medicines/clinical-drugs",
+    "requests": 15,
+    "time": 4.560248136520386,
+    "requests_per_second": 3.2892946942675527
+  },
+  {
+    "type": "No rate limiting detected",
+    "endpoint": "https://fat.kote.helsedirektoratet.no/api/code-systems",
+    "requests": 15,
+    "time": 3.6145472526550293,
+    "requests_per_second": 4.149897331949915
+  },
+  {
+    "type": "No rate limiting detected",
+    "endpoint": "https://fat.kote.helsedirektoratet.no/api/code-systems/ICD10",
+    "requests": 15,
+    "time": 3.936274290084839,
+    "requests_per_second": 3.810710050817293
+  },
+  {
+    "type": "No rate limiting detected",
+    "endpoint": "https://fat.kote.helsedirektoratet.no/api/code-systems/ICD10/A01",
+    "requests": 15,
+    "time": 3.7048425674438477,
+    "requests_per_second": 4.048755035318338
+  },
+  {
+    "type": "No rate limiting detected",
+    "endpoint": "https://fat.kote.helsedirektoratet.no/api/diagnosis/icpc2",
+    "requests": 15,
+    "time": 6.427097320556641,
+    "requests_per_second": 2.3338685026634813
+  },
+  {
+    "type": "No rate limiting detected",
+    "endpoint": "https://fat.kote.helsedirektoratet.no/api/diagnosis/hp/icd10",
+    "requests": 15,
+    "time": 14.779964923858643,
+    "requests_per_second": 1.0148873882498979
+  },
+  {
+    "type": "No rate limiting detected",
+    "endpoint": "https://fat.kote.helsedirektoratet.no/api/fest/merkevarer",
+    "requests": 15,
+    "time": 23.759878873825073,
+    "requests_per_second": 0.6313163497026351
+  }
+]

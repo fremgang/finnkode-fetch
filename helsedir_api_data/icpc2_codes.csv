@@ -1,0 +1,1001 @@
+Concept ID,Norwegian Term,ICPC-2 Code,Released
+72552008,problem med matinntak hos nyfødt,T04,True
+418470004,porfyri,T99,True
+387800004,cervikal spondylose,L83,True
+438479005,leddbåndsskade i kne,L96,True
+367821000202101,premenstruell hodepine,X09,True
+111522004,arcus senilis,F99,True
+302229004,matforgiftning forårsaket av salmonella,D70,True
+1285674001,forstrekking av sene i underarm,L81,True
+122481008,hammertå,L98,True
+95668009,ansiktssmerter,N03,True
+4160001,medfødt anomali i øvre luftveier,R89,True
+10085004,metatarsalgi,L17,True
+267024001,unormalt vekttap,T08,True
+254588001,tarmpolypp,D78,True
+312426003,endokrin infeksjon,T70,True
+440630006,irritabel tarm-syndrom med forstoppelse,D93,True
+414492009,infeksiøs eksematøs dermatitt,S88,True
+395507008,prematurt barn,A93,True
+397923000,somatiseringstilstand,P75,True
+197284004,kronisk aktiv hepatitt,D72,True
+46635009,diabetes type 1,T89,True
+71906005,paronyki,S09,True
+860914002,ereksjonssvikt,Y07,True
+77489003,pterygium,F99,True
+396275006,artrose,L91,True
+65358001,ervervet hallux valgus,L98,True
+22247000,ruptur av operasjonssår,A87,True
+11441004,prostatisme,Y06,True
+225581002,synssvekkelse,F05,True
+86406008,hiv-infeksjon,B90,True
+91487003,bleieutslett,S89,True
+82423001,kroniske smerter,A01,True
+39772007,polypp i endetarm,D78,True
+240131006,rabdomyolyse,L99,True
+723092003,frykt for respiratorisk sykdom,R27,True
+443395009,kompresjonsbrudd,L76,True
+81935006,familiekonflikt,Z20,True
+225595004,smerter ved avføring,D04,True
+125636007,skade på tykktarm,D80,True
+437986008,meningisme,N29,True
+84089009,hiatushernie,D90,True
+34014006,virussykdom,A77,True
+409780002,akutt osteomyelitt,L70,True
+274147008,hallux varus,L98,True
+202805003,iliosakral sykdom,L03,True
+23268009,simulering,Z29,True
+249539006,utstående navle,S29,True
+128069005,abdominalskade,A81,True
+270491006,betennelse i øretrompet,H73,True
+228156007,nedsatt intellektuell funksjonsevne,P85,True
+715239002,plutselig sensorinevralt hørselstap,H86,True
+162181003,ubehag i skjede,X15,True
+131078003,testosteronnivå under referanseområdet,T99,True
+34801009,ektopisk svangerskap,W80,True
+45564002,øsofagusakalasi,D84,True
+285836003,cervikal intraepitelial neoplasi grad 1,X86,True
+230634001,kompresjon av radialisnerve,N94,True
+724452000,frykt for seksuell dysfunksjon,X24,True
+109266006,melanoma in situ i hud,S79,True
+161838002,problem med mating av spedbarn,T04,True
+399072004,blærehalsobstruksjon,U99,True
+12367461000119104,bilateral patellofemoral artrose,L90,True
+1227491000202103,kjønnsinkongruens i barndom,A191,True
+44532001,virkninger av lufttrykk,A88,True
+86276007,gingival blødning,D19,True
+310496002,moderat depressiv lidelse,P76,True
+82999001,epidural intrakranial blødning,N80,True
+43478001,abdominal ømhet,D01,True
+254622008,plateepitelkarsinom i bronkie,R84,True
+95325000,subkutan nodulus,S04,True
+51551000,blødende hemoroider,K96,True
+726403001,frykt for øyesykdom,F27,True
+1099241000202100,perianale condylomata lata hos kvinne,X70,True
+71639005,galaktoré assosisert med fødsel,W19,True
+247866008,engstelig for å pådra seg sykdom,A27,True
+188192002,endometriekreft,X77,True
+111975006,forlenget QT-intervall,A91,True
+254637007,ikke-småcellet lungekreft,R84,True
+283974005,perinealt hematom hos mann,Y80,True
+40733004,infeksjonssykdom,A78,True
+83414005,makrocytær anemi,B81,True
+58424009,overspising,T02,True
+37042000,guttat psoriasis,S91,True
+202708005,lumbal skiveprolaps,L86,True
+274165007,laserasjon av hud,S18,True
+161947006,nattlig hoste og piping,R29,True
+247486000,pincernegl,S22,True
+18260003,fødselspsykose,P98,True
+162200009,forbigående hukommelsestap,P20,True
+267369002,enkel struma,T81,True
+187851000202103,redusert funksjonsnivå på grunn av øreproblem,H28,True
+45861001,anserinustendinitt,L87,True
+49496001,dobbel urinleder,U85,True
+93655004,malignt melanom i hud,S77,True
+399957001,okklusiv sykdom i perifere pulsårer,K92,True
+302231008,salmonellainfeksjon,D70,True
+202487003,smerter i iliosakralledd,L03,True
+309253009,lesevansker,P24,True
+279079003,dysestesi,N06,True
+298282001,spastisk tetraparese,N18,True
+262968008,intramuskulær kontusjon,S16,True
+279039007,korsryggsmerter,L03,True
+201038005,liktorn,S20,True
+276360005,opptatt av kroppsvekt,A18,True
+414285001,matallergi,A92,True
+225826001,utsatt for seksuell mishandling,Z25,True
+218951000119100,svekket syn på begge øyne,F94,True
+150851000119100,genetisk veiledning utført,A98,True
+44298000,abscess i lymfeknute,B70,True
+78623009,endometritt,X74,True
+240221008,spondylolyse,L84,True
+201077008,asteatotisk eksem,S99,True
+125604000,fotskade,L81,True
+272040008,pipelyder,R03,True
+67148009,podagra,T92,True
+249519007,diaré og oppkast,D29,True
+52011008,fingerskade,L81,True
+191627008,bipolar affektiv lidelse med aktuell depressiv episode,P73,True
+5370000,atrieflutter,K78,True
+281599007,forstrekking av ligament i underekstremitet,L79,True
+95315005,leiomyom i uterus,X78,True
+55310007,mukøs polypp i cervix uteri,X85,True
+30291000175101,trykksår på venstre albue kategori 3,S97,True
+28277004,atferd med økt motorisk aktivitet,P29,True
+367466007,hudirritasjon,S02,True
+127199000,inguinal lymfadenopati,B02,True
+233819005,stabil angina,K74,True
+30301000175100,trykksår på venstre albue kategori 4,S97,True
+57190000,myopi,F91,True
+36241006,ikke-toksisk flerknutet struma,T81,True
+83943005,raserianfall,P22,True
+398028009,halonevus,S82,True
+723112000,frykt for endokrin sykdom,T27,True
+90739004,tyreotoksikose,T85,True
+170489004,bærer av hepatittvirus,D72,True
+238772004,livedo reticularis,S08,True
+192054008,kultursjokk,P02,True
+10667471000119108,trykksår på høyre legg kategori 2,S97,True
+28442001,polyuri,U02,True
+21711003,hydrosalpinx,X74,True
+74285003,oppfylling i bekken,D24,True
+58718002,giktfeber,K71,True
+233843008,stille hjerteinfarkt,K75,True
+1098871000202104,smerter i bryst hos kvinne,X18,True
+36083008,syk sinus-syndrom,K80,True
+266956001,har mistet jobben,Z06,True
+443182008,kontaktlinserelatert corneasykdom,F18,True
+300921000,stenose i arteria subclavia,K92,True
+508481000202104,trykksår på høyre kne kategori 1,S97,True
+71884009,prekordiale smerter,A11,True
+24385003,fremmedlegeme i lunge,R87,True
+1475003,herpes labialis,S71,True
+1156963006,myelopati som skyldes cervikal spondylose,L83,True
+15203004,plutselig synstap,F05,True
+1099221000202109,urogenital klamydiainfeksjon hos kvinne,X92,True
+74728003,hypofysesvikt,T99,True
+363353009,galleblærekreft,D77,True
+12463005,infeksiøs gastroenteritt,D73,True
+2435008,askariasis,D96,True
+186772009,Rocky Mountain-flekkfeber,A78,True
+263196008,caput radii-fraktur,L72,True
+73998008,underlivsprolaps,X87,True
+262582004,brannskade i ansikt,S14,True
+44465007,forstuing av ankel,L77,True
+298382003,skoliose,L85,True
+208892001,lukket traumatisk hofteleddsluksasjon,L80,True
+84229001,fatigue,A04,True
+282752000,skade i øyeregion,F79,True
+161831008,økende vekt,T07,True
+84757009,epilepsi,N88,True
+397847006,sorg ved dødsfall i familie,Z23,True
+6077001,droppfot,L98,True
+90678009,leppesykdom,D83,True
+66071002,hepatitt B,D72,True
+28670008,øsofagusvaricer,K99,True
+21621000119107,smerte i perineum hos kvinne,X01,True
+237083000,gonokokkcervicitt,X71,True
+19877001,rhinofyma,S99,True
+301350008,lesjon på leppe,D20,True
+46206005,stemningslidelse,P73,True
+1098811000202106,fertilitetsproblem hos kvinne,W15,True
+22125009,pannikulitt,L18,True
+54012000,posttraumatisk hodepine,N01,True
+62745008,skade på nervus ulnaris,N81,True
+703883009,kald hud,S29,True
+192811002,alkoholisk encefalopati,N99,True
+262286000,vektøkning,T07,True
+563001,nystagmus,F14,True
+517981000202108,traumatisk delvis amputasjon av tommel,L81,True
+27817002,indre thoraxskade,A81,True
+73297009,muskeldystrofi,N99,True
+128210009,thoraxapertursyndrom,N94,True
+17383000,kullosforgiftning,A86,True
+202482009,smerter i radiokarpalledd,L11,True
+249395001,store tonsiller,R21,True
+398723007,verrukøs epidermal nevus,S82,True
+20301004,dysfasi,N19,True
+65754002,primær dysmenoré,X02,True
+276507005,fosterdød,A95,True
+80281008,leppespalte,D81,True
+13600006,follikulitt,S99,True
+187861000202100,engstelig for sykdom i kjønnsorgan hos mann,Y27,True
+3135009,betennelse i ytre øre,H70,True
+166686006,elektrolyttnivå utenfor referanseområde,A91,True
+64009001,vertebralis-basilaris-syndrom,K89,True
+103011009,godartet anstrengelseshodepine,N01,True
+43756009,traumatisk miltruptur,B76,True
+85189001,akutt appendisitt,D88,True
+83128009,oliguri,U05,True
+92749008,carcinoma in situ i hud,S79,True
+271787007,kollaps,A06,True
+59967003,akutt laryngotrakeitt med obstruksjon,R77,True
+230465000,migrene med aura uten hodepine,N89,True
+22325002,unormal gange,N29,True
+74808006,ervervet skjevt neseseptum,R99,True
+60442001,trommehinneperforasjon,H77,True
+45534005,glossitt,D83,True
+276074009,stress på jobb,P02,True
+38880002,frostanfall,A02,True
+162116003,hyppig vannlating,U02,True
+65978000,thoraxveggskade,L81,True
+193683001,fargeblindhet,F99,True
+387666006,akutt ventrikkeldilatasjon,D87,True
+266571009,ervervet fimose,Y81,True
+415105001,morkakeløsning,W92,True
+52914002,anal candidainfeksjon,S75,True
+232429001,akutt subglottisk laryngitt,R77,True
+84114007,hjertesvikt,K77,True
+241805002,hoggormforgiftning,S13,True
+266607004,perimenopausal sykdom,X11,True
+22298006,hjerteinfarkt,K75,True
+5935008,bruker oral prevensjon,W11,True
+95812002,øregangseksem,H70,True
+93478000,intraokulær blødning,F99,True
+5441008,tinea capitis,S74,True
+426814001,transitorisk iskemisk anfall som skyldes atrieflimmer,K89,True
+473421004,døvhet på høyre øre,H86,True
+239872002,hofteleddsartrose,L89,True
+76498008,postmenopausal tilstand,X11,True
+248980004,kontaktblødning,X13,True
+417044008,benign blæremola,W73,True
+251176006,multiple ventrikulære ekstrasystoler,K80,True
+161925006,slimhoste med gult ekspektorat,R25,True
+87414006,reaktiv depresjon,P76,True
+10601006,smerte i underekstremitet,L14,True
+363354003,livmorhalskreft,X75,True
+44653001,erysipelas,S76,True
+40055000,kronisk sinusitt,R75,True
+42631002,jordbærtunge,D83,True
+17059001,prepatellær bursitt,L87,True
+416675009,furunkel,S10,True
+359649009,vektreduserende kosthold,A99,True
+77386006,gravid,W78,True
+46085004,retinal venetrombose,F99,True
+425075004,får lett blåmerker,S16,True
+202888004,fremre medialt tibialt stressyndrom,L81,True
+363478007,ondartet svulst i skjoldbruskkjertel,T71,True
+4127004,prostataobstruksjon,Y85,True
+200724002,navlegranulom,S99,True
+64531003,rennende nese,R07,True
+35489007,depressiv lidelse,P76,True
+50448004,brudd i columna,L76,True
+50829006,lærevansker med grunnleggende ferdigheter,P24,True
+8098009,seksuelt overførbar sykdom,A78,True
+90458007,indre hemoroider,K96,True
+246636008,tåkesyn,F05,True
+88348008,maksillarsinusitt,R75,True
+304213008,lett feber,A03,True
+254632001,småcellet lungekarsinom,R84,True
+187881000202106,redusert funksjonsnivå på grunn av luftveisproblem,R28,True
+8034008,smertefull ereksjon,Y08,True
+47505003,posttraumatisk stresslidelse,P82,True
+21186006,kronisk mellomørebetennelse,H74,True
+198319004,forstørret livmor,X99,True
+441704009,affektiv psykose,P73,True
+76571007,septisk sjokk,A78,True
+312682007,empyem,R83,True
+392291006,trangvinkelglaukom,F93,True
+281050002,levendefødsel,W90,True
+160822004,relasjonsproblem,Z24,True
+237084006,klamydiacervicitt,X92,True
+85670002,vitaminmangel,T91,True
+6285003,takyarytmi,K04,True
+254900004,prostatakarsinom,Y77,True
+399963005,skrubbsår,S17,True
+699392007,kløe i øre,H29,True
+58170007,virusmeningitt,N71,True
+17920008,portvenetrombose,K94,True
+80384002,epiglottitt,R83,True
+237364002,dødfødsel,W91,True
+262890007,urinveisskade,U80,True
+233604007,lungebetennelse,R81,True
+38822007,cystitt,U71,True
+128274005,kongenital neseanomali,R89,True
+155597006,aspirasjonspneumonitt,R99,True
+76376003,endometriose i livmor,X99,True
+41888000,kjeveleddslidelse,L07,True
+134407002,kroniske ryggsmerter,L02,True
+160693001,dårlig bevegelighet,L28,True
+431856006,kronisk nyresykdom stadium 2,U891,True
+425852005,feiltilheling av brudd,L99,True
+125594001,skade i skulderregion,L81,True
+50563003,seboreisk dermatitt,S86,True
+21877004,Oslers sykdom,K99,True
+187941000202107,redusert funksjonsnivå på grunn av sosialt problem,Z28,True
+41982003,mannlig overgangsalder,Y28,True
+30091000175105,trykksår på høyre ankel kategori 1,S97,True
+247434009,rynkete hud,S21,True
+23407003,medfødt plattfot,L82,True
+1099191000202100,problem med bryst hos kvinne,X21,True
+60862001,tinnitus,H03,True
+386207004,temporomandibulær dysfunksjon,L07,True
+84445001,stivhet i ledd,L20,True
+56608008,håndleddssmerter,L11,True
+267258002,foster lite i forhold til gestasjonsalder,A94,True
+47812002,funksjonell diaré,D93,True
+29871000175109,trykksår på høyre hæl kategori 3,S97,True
+75803007,bakre rhinoré,R07,True
+111934004,flåttinfestasjon,S73,True
+125627008,skade på tynntarm,D80,True
+161156004,språklige utfordringer,Z04,True
+236037000,arrbrokk,D91,True
+390834004,ikke-proliferativ diabetisk retinopati,F83,True
+284775008,ute av stand til å utføre egenomsorgsaktivitet,A28,True
+90460009,halsskade,L81,True
+363173007,bruskbetennelse,L99,True
+10666711000119108,trykksår på høyre legg kategori 4,S97,True
+203095000,spasme i ryggmuskler,L02,True
+195676005,akutt viral tonsillitt,R76,True
+125660006,åpent sår på kne,S18,True
+66590003,alkoholavhengighet,P15,True
+285375003,smerter i penis,Y01,True
+161833006,unormal vektøkning,T07,True
+128516002,svulst i adnexa oculi,F74,True
+363493006,ondartet svulst i bronkie,R84,True
+285059008,skade på ytre øre,H78,True
+64144002,prurigo,S02,True
+92564006,cervikal intraepitelial neoplasi 3,X81,True
+31097004,postpoliosyndrom,N70,True
+247459000,aknearr,S99,True
+170728008,dårlig synsskarphet,F05,True
+237091009,infeksiøs vaginitt,X84,True
+233598009,akutt bakteriell bronkitt,R78,True
+29801000175102,trykksår på venstre hofte kategori 2,S97,True
+33168009,entropion,F99,True
+128192007,perifer nevritt,N94,True
+276433004,sår etter insektbitt,S12,True
+33995003,megakolon,D99,True
+78048006,candidainfeksjon,A78,True
+367701000202104,premenstruelle endringer i stemningsleie,X09,True
+205237003,pneumonitt,R81,True
+90446007,analkløe,D05,True
+282766005,skade i korsrygg,L81,True
+10667431000119105,trykksår på venstre legg kategori 2,S97,True
+254872007,embryonalt karsinom i eggstokk,X77,True
+202664003,cervikal myelopati,L83,True
+186464008,mykoplasmainfeksjon,A78,True
+75934005,metabolsk sykdom,T99,True
+29740003,ernæringsbetinget marasme,T91,True
+293104008,vaksinebivirkning,A85,True
+161898004,faller,A29,True
+51178009,krybbedød,A95,True
+275385007,forgiftning forårsaket av biologisk substans,A84,True
+398036000,familiær hyperkolesterolemi,T93,True
+5291005,hypokalsemi,A91,True
+82119001,tyreoiditt,T99,True
+397181002,åpent brudd,A80,True
+285365001,smerter i tå,L17,True
+428883008,bicepsseneruptur,L81,True
+10669591000119104,trykksår i coccygealregion kategori 4,S97,True
+299709002,abscess i tann,D82,True
+238108007,kakeksi,T08,True
+12779007,traumatisk ulcerasjon i tunge,D83,True
+3951002,proktitt,D99,True
+19351000,akutt glomerulonefritt,U88,True
+94222008,skjelettmetastase,A79,True
+609496007,komplikasjon som oppstår under svangerskap,W99,True
+508441000202109,trykksår på høyre kne kategori 3,S97,True
+897657000,kronisk rhinosinusitt,R75,True
+52636001,aktinisk retikuloid,S80,True
+508431000202103,trykksår på venstre kne kategori 3,S97,True
+300956001,forstrekking i korsrygg,L84,True
+119416008,epigastrisk ubehag,D02,True
+827008005,vesikkel på hud,S06,True
+13758004,parafimose,Y81,True
+22927000,mistenksom atferd,P29,True
+18347007,lumbal spinal stenose,L84,True
+66931009,hyperkalsemi,A91,True
+371632003,koma,A07,True
+370992007,dyslipidemi,T93,True
+79619009,mitralstenose,K83,True
+128462008,metastase,A79,True
+762502009,utviklingsmessig språkforstyrrelse og språksvekkelse,P24,True
+36209000,kloasme,S08,True
+83561009,cervikal spinal stenose,L83,True
+72007001,duodenitt,D87,True
+33301000119105,senfølge etter kardioembolisk hjerneslag,K91,True
+424413001,sarkom,A79,True
+239874001,artrose i ankel,L91,True
+788465007,repetitiv belastningsskade,L79,True
+161719001,ønsker å utsette menstruasjon,X10,True
+30331000175109,trykksår på hode kategori 2,S97,True
+239107007,epidermal nevus,S82,True
+723121004,frykt for hematologisk kreft,B26,True
+32798002,parkinsonisme,N87,True
+1099511000202103,kjønnsvorter hos mann,Y76,True
+267095009,taleproblem,N19,True
+302914006,Barrets øsofagus,D84,True
+103281005,følelse av tett øre,H13,True
+236703003,residiverende infeksiøs cystitt,U71,True
+44548000,hyperaktiv atferd,P81,True
+399939002,hirsutisme,S24,True
+367363000,høyresidig hjertesvikt,K77,True
+5510009,organisk vrangforestillingslidelse,P71,True
+277879009,autonom nevropati,N94,True
+93689003,primær ondartet svulst i urinblære,U76,True
+4568003,retrosternale smerter,K01,True
+13791008,kraftløshet,A04,True
+7632005,dermografisme,S98,True
+46701001,akutt myokarditt,K70,True
+371049006,ulcus i hud etter traume,S19,True
+310495003,mild depressiv lidelse,P76,True
+233679003,astma med sen symptomdebut,R96,True
+16607004,missed abortion,W82,True
+248648003,raske palpitasjoner,K04,True
+36989005,kusma,D71,True
+424040008,fantomsvangerskap,P75,True
+36813001,placenta praevia,W84,True
+301864002,serøs coxitt,L87,True
+92103006,godartet svulst i kvinnelige kjønnsorganer,X80,True
+42982001,spyttkjertelbetennelse,D83,True
+235919008,galleblærestein,D98,True
+6740003,cystisk fibroadenomatose i bryst,X88,True
+33737001,ribbeinsbrudd,L76,True
+281245003,muskel- og skjelettsmerte i brystkasse,L04,True
+299478007,fotproblem,L17,True
+65275009,akutt kolecystitt,D98,True
+84857004,herniering av nucleus pulposus i mellomvirvelskive,L86,True
+68109007,arteriestriktur,K92,True
+263199001,distalt radiusbrudd,L72,True
+47821001,blødning etter fødsel,W17,True
+371081002,artritt i kne,L91,True
+1268295005,vaskulitt som skyldes systemisk sykdom,K99,True
+126895004,svulst i mannlige kjønnsorganer,Y79,True
+15013002,flytere i synsfeltet,F04,True
+21639008,hypervolemi,T99,True
+1099901000202107,forespørsel om fødselsattest,A97,True
+34319007,indurasjon i hud,S21,True
+70036007,lungebetennelse forårsaket av Haemophilus influenzae,R81,True
+34436003,hematuri,U06,True
+723093008,frykt for kreft i respirasjonssystemet,R26,True
+247354009,smerter i fossa iliaca,D06,True
+283026008,overfladisk skade i øreregion,H79,True
+187891000202108,redusert funksjonsevne på grunn av problem i nervesystemet,N28,True
+63144007,vulvitt,X84,True
+309087008,parestesi i fot,N05,True
+426997005,traumatisk skade under svangerskap,W75,True
+210344002,åpent sår på leppe,D80,True
+309779001,meibomianitt,F72,True
+15033003,peritonsillær abscess,R76,True
+48079002,forstyrrelse i stemningsleie,P29,True
+248539004,familieproblemer,Z20,True
+736500007,polypp i nesehule,R99,True
+58797008,sykdom i transplantert nyre,U28,True
+363406005,kolonkreft,D75,True
+19471005,lymfadenitt,B70,True
+15182000,Coffin-Lowrys syndrom,A90,True
+102835006,problemer med vannlating,U05,True
+42085001,utsatt for voldtekt,Z25,True
+278849000,hjerneatrofi,N99,True
+8004003,plager ved tannfrembrudd,D19,True
+11687002,svangerskapsdiabetes,W85,True
+3738000,virushepatitt,D72,True
+29311000175108,trykksår på venstre nates kategori 4,S97,True
+30233002,smertefull svelging,D21,True
+3415004,cyanose,S08,True
+118926004,gallegangssykdom,D98,True
+63305008,øsofagusstriktur,D84,True
+109385007,Kaposis sarkom,A79,True
+267032009,sliten hele tiden,A04,True
+4855003,diabetisk retinopati,F83,True
+21007002,Wernickes encefalopati,N99,True
+125587004,overfladisk skade,S19,True
+29281000175106,trykksår på venstre nates kategori 1,S97,True
+276826005,ondartet gliom i hjerne,N74,True
+299973008,stikk fra plante,S88,True
+86423004,polypp i larynks,R99,True
+43019009,Nelsons syndrom,T99,True
+69430001,abscess i vulva,X99,True
+65937002,uperforert hymen,X83,True
+254662007,keratoakantom,S99,True
+84849002,ringorm,S74,True
+59935001,fysiologisk hjertebilyd,K81,True
+239720000,meniskruptur i kne,L96,True
+61281005,blodfarget oppspytt,R24,True
+51611005,kronisk elveblest,S98,True
+274134003,leukoplaki,D83,True
+194204009,furunkulose i ytre øregang,H70,True
+86142006,pemfigoid,S99,True
+286933003,forvirringstilstand,P20,True
+191956005,psykogen hyperventilering,R98,True
+58381000,hypersplenisme,B99,True
+246545002,generalisert epileptisk anfall,N88,True
+399993004,smaksforstyrrelse,N16,True
+40108008,talassemi,B78,True
+29164008,taleforstyrrelse,N19,True
+68226007,akutt cystitt,U71,True
+36653000,rubella,A74,True
+47933007,fotsmerter,L17,True
+75483001,pustesmerter,R01,True
+187214007,middsykdom,S72,True
+815008,episkleritt,F99,True
+186658007,coxsackievirus-sykdom,A77,True
+5913000,lårhalsbrudd,L75,True
+40930008,hypotyreose,T86,True
+23484007,candidainfeksjon i negl,S75,True
+201325006,dermoidcyste i hud,S79,True
+7916009,alkoholisk polynevropati,N94,True
+404223003,dyp venetrombose i underekstremitet,K94,True
+719175001,syk partner,Z14,True
+16294009,forstørret milt,B87,True
+58250006,svie ved vannlating,U01,True
+1099661000202102,seksuelt symptom hos mann,Y29,True
+237125007,pubertal menoragi,X06,True
+69231004,kronisk fototoksisk dermatitt,S80,True
+88092000,muskelsvinn,L19,True
+739684008,pasientens barn er dødt,Z19,True
+361137007,uregelmessige hjerteslag,K05,True
+13200003,peptisk ulcus,D86,True
+262550002,infisert insektbitt,S11,True
+41652007,øyesmerter,F01,True
+86203003,polyhydramnion,W84,True
+28944009,cytomegalovirusinfeksjon,A77,True
+17883008,forstuing av hofte,L79,True
+1052282008,restless legs-syndrom forårsaket av uremi,N04,True
+62629000,rectusdiastase,L99,True
+73573004,medfødt misdannelse i muskel-skjelettsystemet,L82,True
+279084009,ubehag i bryst,L04,True
+189878003,osteosarkom,L71,True
+95344007,ulcus på underekstremitet,S97,True
+31658008,kronisk paranoid schizofreni,P72,True
+240008008,Bakers cyste,L87,True
+66999008,hyperparatyreoidisme,T99,True
+102947004,seksuell høyrisikoatferd,A23,True
+202856007,bicepstendinitt,L87,True
+262917005,skade på mannlige genitalia,Y80,True
+4740000,herpes zoster,S70,True
+54556006,ulnafraktur,L72,True
+860918004,psykogen erektil dysfunksjon,P08,True
+75053002,Kawasakis sykdom,K99,True
+10850741000119108,utilsiktet nålestikkskade,S18,True
+53084003,bakteriell pneumoni,R81,True
+1099761000202109,smerter i bryst hos mann,Y16,True
+34095006,dehydrering,T11,True
+87979003,ganespalte,D81,True
+4834000,tyfoidfeber,D70,True
+289900009,menstruasjonssmerter,X02,True
+191983006,bruksisme,D29,True
+95726001,arr i cornea,F99,True
+90392009,nattlig muskelspasme,L18,True
+191667009,paranoid psykose,P72,True
+126883004,tumor i urethra,U79,True
+44087005,Beaus linjer,S22,True
+64375000,akutt laryngotrakeitt,R77,True
+233873004,hypertrofisk kardiomyopati,K84,True
+208921000,akutt lateral meniskruptur,L96,True
+46689006,tonsillehypertrofi,R90,True
+271737000,anemi,B82,True
+387922007,tumor i endokrin kjertel,T73,True
+73595000,stress,P02,True
+89627008,hyponatremi,A91,True
+11654001,akillestendinitt,L87,True
+83620003,mastitt (ikke ammende),X21,True
+240533004,ansiktsvorte,S03,True
+285201000119100,høyresidig carotisstenose,K91,True
+68962001,myalgi,L18,True
+31341008,glasslegemeblødning,F99,True
+92468007,benign tumor i urinveier,U78,True
+1099091000202104,anogenitale vorter hos kvinne,X91,True
+274152003,spondylolistese,L84,True
+58103005,perianal fistel,D95,True
+255167007,benign tumor i fordøyelsesorgan,D78,True
+56294008,nikotinavhengighet,P17,True
+75258004,matforgiftning,D73,True
+439955006,ulcerøs øsofagitt,D84,True
+387742006,amblyopi,F99,True
+95869003,uønsket reaksjon på protese,A89,True
+372063002,malign tumor i nervesystemet,N74,True
+60845006,dyspné ved anstrengelse,R02,True
+81996005,testikkeltorsjon,Y99,True
+398212009,flytende avføring,D11,True
+27878001,follikulær tonsillitt,R76,True
+14669001,akutt nyresvikt,U891,True
+53339009,dysfunksjonell sorg,P02,True
+27836007,pertussis,R71,True
+4120002,bronkiolitt,R78,True
+43614003,barneautisme,P99,True
+302297009,medfødt deformitet i fot,L82,True
+105531004,problem med dårlige boforhold,Z03,True
+60700002,sensorinevralt hørselstap,H86,True
+266474003,gallestein,D98,True
+450521003,patellofemoral artrose,L90,True
+267426009,malabsorpsjon av glukose,T99,True
+3716002,struma,T81,True
+139394000,nokturi,U02,True
+1287535001,skrubbsår på kinn,S17,True
+91019004,parestesi,N05,True
+45795007,okulær melanose,F81,True
+1231846001,alkoholutløst psykose,P15,True
+2622007,infisert hudsår,S97,True
+4598005,osteomalasi,T99,True
+64661000,meget svak puls,K29,True
+49408009,mannlig sterilitet,Y10,True
+248182008,sprukne lepper,D20,True
+29291000175109,trykksår på venstre nates kategori 2,S97,True
+64766004,ulcerøs kolitt,D94,True
+398838000,senil hyperkeratose,S99,True
+27431007,diffus cystisk mastopati,X88,True
+62742006,melkeutslett,S86,True
+30271000175102,trykksår på venstre albue kategori 1,S97,True
+73583000,epikondylitt,L93,True
+51615001,lungefibrose,R99,True
+267045008,mage-tarm-symptom,D29,True
+399187006,hemokromatose,T99,True
+248528002,multiple oppfyllinger,S05,True
+41040004,trisomi 21,A90,True
+86133004,bendelorminfeksjon,D96,True
+1099831000202105,bruker prevensjonsmiddel for mann,Y14,True
+80060002,hårete tunge,D20,True
+266108008,"hånd-, fot- og munnsykdom",A76,True
+193967004,hevelse i øyelokk,F16,True
+64715009,hypertensiv hjertesykdom,K87,True
+1098991000202108,seksuelt symptom hos kvinne,X29,True
+58972000,drypping av urin,U05,True
+236423003,hemmet nyrefunksjon,U99,True
+91857003,akutt lymfatisk leukemi,B73,True
+111183001,abscess på tå,S09,True
+318316003,vernal konjunktivitt,F71,True
+733341007,problem med matinntak hos voksen,T05,True
+195742007,akutt nedre luftveisinfeksjon,R78,True
+91861009,akutt myelogen leukemi,B73,True
+35919005,gjennomgripende utviklingsforstyrrelse,P99,True
+22631008,ustø ved gange,N29,True
+312196000,infeksjon i kvinnelige kjønnsorganer,X99,True
+202381003,effusjon i kneledd,L20,True
+88968005,sår i tolvfingertarm med perforasjon,D85,True
+82272006,forkjølelse,R74,True
+18070006,vokspropp,H81,True
+443165006,osteoporotisk brudd,L95,True
+3218000,mykose,A78,True
+211463006,fremmedlegeme i hudsår,S15,True
+267781000202100,perianale vorter hos kvinne,X91,True
+274647009,rastløshet og agitasjon,P04,True
+70449006,amaurose,F94,True
+50923006,leukoplaki i livmorhals,X85,True
+290411000119106,inkomplett paraplegi,N18,True
+45261009,viral konjunktivitt,F70,True
+66760008,optikusnevritt,F99,True
+1098911000202102,syfilis hos kvinne,X70,True
+109889007,intraduktalt carcinoma in situ i bryst,X76,True
+279043006,smerter i nates,L14,True
+162400007,halsirritasjon,R21,True
+41729002,hesteskonyre,U85,True
+21897009,generalisert angstlidelse,P74,True
+271955004,retraksjon av brystvorte,X20,True
+90560007,urinsyregikt,T92,True
+733340008,bekymret for utseende på bryst,X22,True
+15686441000119107,bilateral serøs coxitt,L87,True
+12295008,bronkiektasi,R99,True
+59663001,premenstruell akne hos voksen,S96,True
+34842007,blødning i svangerskap,W03,True
+302933001,lateral meniskruptur,L96,True
+18941000,opposisjonell atferdsforstyrrelse,P22,True
+28154007,unormal seksualfunksjon hos kvinne,X28,True
+55464009,systemisk lupus erythematosus,L99,True
+446096008,kronisk allergisk rinitt,R97,True
+31054009,stein i urinleder,U95,True
+34742003,portal hypertensjon,D97,True
+312956001,sentralserøs chorioretinopati,F83,True
+85649008,megaloblastanemi som skyldes folatmangel,B81,True
+57676002,leddsmerter,L20,True
+406506008,ADHD,P81,True
+362973001,sykdom i barseltid,W96,True
+429998004,vaskulær demens,P70,True
+16644004,radialisnevropati,N94,True
+724824002,frykt for nevrologisk sykdom,N27,True
+26629001,kort tarm-syndrom,D99,True
+92030004,godartet hjernesvulst,N75,True
+309615009,tarmproblem,D29,True
+55929007,føler seg irritabel,P04,True
+235595009,gastroøsofageal reflukssykdom,D84,True
+187731000202104,redusert funksjonsevne på grunn av endokrint og metabolsk ernæringsproblem,T28,True
+19943007,levercirrhose,D97,True
+75694006,pankreatitt,D99,True
+866000008,pilonidal abscess,S85,True
+430968008,smerter i perineum hos mann,Y02,True
+95417003,primær fibromyalgi,L18,True
+274207006,løsemiddelforgiftning,N99,True
+48447003,kronisk hjertesvikt,K77,True
+193093009,Bells parese,N91,True
+16065006,ankylose i iliosakralledd,L84,True
+367391008,sykdomsfølelse,A05,True
+25501002,sosial fobi,P79,True
+267112005,føler seg frisk,A97,True
+14812002,cellulitt på penis,Y04,True
+127086001,cervikal lymfadenopati,B02,True
+444158007,korsbåndsskade,L96,True
+363508008,tarmkreft,D77,True
+70691001,agorafobi,P79,True
+42570001,senil kløe,S02,True
+36994005,forbigående synstap,F05,True
+405817008,brudd i falang i finger,L74,True
+307496006,divertikulitt,D92,True
+274139008,skuldersyndrom,L92,True
+726408005,leamus i øyelokk,N99,True
+267521000202108,perianale vorter hos mann,Y76,True
+713404003,vaksinasjon gitt,A98,True
+74774004,kuldeurticaria,S98,True
+35240004,jernmangel,T91,True
+191733007,frykt for svangerskap,W02,True
+29741000175108,trykksår på høyre hofte kategori 2,S97,True
+270903007,mangel på eller tap av seksualdrift,P07,True
+66123000,sår på tunge,D83,True
+49765009,hyperpigmentering,S99,True
+306058006,aplastisk anemi,B82,True
+301358001,kardiovaskulære smerter,K03,True
+26237000,ankelødem,K07,True
+300980002,normocytær anemi,B82,True
+191483003,psykose forårsaket av legemiddel eller rusmiddel,P19,True
+57092006,fleksuralt eksem,S87,True
+386813002,unormal pust,R04,True
+165397008,hemoglobinnivå under referanseområde,B82,True
+5158005,Tourettes syndrom,P10,True
+65619001,rektovaginal fistel,X99,True
+78667006,dystymi,P76,True
+57406009,karpaltunnelsyndrom,N93,True
+302820008,intrakranial hjernehinnesvulst,N75,True
+54385001,exanthema subitum,A76,True
+80495009,søvngjengeri,P06,True
+309469004,spontan hodefødsel,W90,True
+262597001,flis i hud,S15,True
+65118005,ekteskapelige problemer,Z12,True
+237101004,leukoré,X14,True
+52643007,candidabalanitt,Y75,True
+309522006,nakkeømhet,L01,True
+363443007,eggstokkreft,X77,True
+309838005,opprørt,P02,True
+49710005,sinusbradykardi,K04,True
+20022000,hemiparese,N18,True
+275741008,leukocytter i urin,U98,True
+187115002,kutan schistosomiasis,S73,True
+35265002,Mallory-Weiss' syndrom,D84,True
+192080009,kronisk depresjon,P76,True
+414545008,iskemisk hjertesykdom,K76,True
+126950007,svulst i nervesystem,N76,True
+64156001,tromboflebitt,K94,True
+4557003,ustabil angina pectoris,K74,True
+112222000,hevet intraokulært trykk,F93,True
+432525007,oppfylling i hode,S04,True
+111243002,bursitt i kne,L87,True
+407645004,ortostatisk svimmelhet,K29,True
+162218007,stressrelatert problem,P02,True
+82297005,tett bihule,R09,True
+68235000,nesetetthet,R08,True
+271868006,unormalt vaginalsekret,A91,True
+233983001,cerebral aneurismeruptur,K90,True
+312149008,soppinfeksjon i luftveier,R83,True
+61486003,smerter i sakralregion,L03,True
+297982009,hudproblem,S29,True
+9991008,kolikk,D01,True
+87872006,androgen alopesi,S23,True
+9740002,makroencefali,N85,True
+878795009,forbigående døvhet,H99,True
+123756000,menopausalt syndrom,X11,True
+786457000,overaktiv blære,U04,True
+721104000,urosepsis,U71,True
+55822004,hyperlipidemi,T93,True
+1098981000202106,urogenitale smerter hos kvinne,X01,True
+38804009,Turners syndrom,A90,True
+301356002,smerter i maksillarsinus,R09,True
+82991003,generaliserte smerter og plager,A01,True
+31892009,hemothorax,R82,True
+53891004,lichen simplex chronicus,S99,True
+156072005,ufullstendig spontanabort,W82,True
+609601001,suprascapularis-nevropati,N81,True
+262966007,muskelruptur,L81,True
+10114008,kvinnelig sterilitet,W15,True
+23560001,Aspergers syndrom,P99,True
+197811007,vesikoureteral refluks,U99,True
+52254009,nefrotisk syndrom,U88,True
+297128006,nakkesmerter,L01,True
+249511005,dyspepsi med flatulens,D07,True
+30101000175103,trykksår på høyre ankel kategori 2,S97,True
+235058001,herpes i munnslimhinne,S71,True
+275765006,pussceller i urin,U98,True
+57044006,bartholinsk cyste,X99,True
+83330001,åpenstående ductus arteriosus,K73,True
+18171007,brudd i falang i annen finger enn tommel,L74,True
+83901003,Sjøgrens syndrom,L99,True
+24199005,føler seg agitert,P04,True
+53277000,vulvovaginitt,X84,True
+89242004,malign sekundær hypertensjon,K87,True
+18726006,senil asteni,P05,True
+266429005,angulær keilitt,D83,True
+191480000,alkoholabstinens,P15,True
+1023001,apné,R04,True
+312902008,pseudohull i makula,F84,True
+427213005,autoimmun vaskulitt,K99,True
+79740000,trøske,D83,True
+249307003,nesesymptom,R08,True
+162128006,svak urinstråle,U05,True
+1098781000202108,bruker prevensjonsmiddel for kvinne,W14,True
+268029009,patologisk brudd,L99,True
+83458005,agitert depresjon,P76,True
+414821002,candidainfeksjon hos nyfødt,A94,True
+56267009,multiinfarktdemens,P70,True
+55525008,paralytisk ileus,D99,True
+195967001,astma,R96,True
+423341008,papilleødem,F99,True
+778014002,kneppende hofte hos nyfødt,L82,True
+111516008,uklart syn,F05,True
+312230002,hyperhidrose,A09,True
+9414007,nedsatt glukosetoleranse,T99,True
+230456007,status epilepticus,N88,True
+840539006,covid-19,R992,True
+72779005,anorektal fistel,D95,True
+90070003,traumatisk pneumotoraks,R88,True
+39104002,sykdom ikke spesifisert,A99,True
+71620000,brudd i femur,L75,True
+102932008,frykt for hypertensjon,K25,True
+699391000,frykt for døvhet,H27,True
+236639003,overfølsom urinblære,U13,True
+51476001,nasofaryngitt,R74,True
+31975004,skafoidbrudd,L74,True
+309567004,tåproblem,L17,True
+10227000,herpesvirusinfeksjon i penis,Y72,True
+21586000,Münchhausens syndrom,P80,True
+72863001,snorking,R04,True
+302226006,perifer nervesykdom,N94,True
+6655004,akutt laryngitt,R77,True
+77880009,smerter i rektum,D04,True
+255034006,follikulært thyreoideaadenom,T72,True
+73692007,fiksert legemiddelutslett,A85,True
+314020001,viruskeratitt,F85,True
+140004,kronisk faryngitt,R83,True
+31978002,brudd i tibia,L73,True
+38577009,virkninger av lynnedslag,A88,True
+1376001,obsessiv-kompulsiv personlighetsforstyrrelse,P79,True
+59050008,innsovningsvansker,P06,True
+72047008,Schlatters sykdom,L94,True
+278017001,illeluktende urin,U07,True
+420038007,føler seg ulykkelig,P03,True
+396332003,revmatisme,L18,True
+128351009,øyeinfeksjon,F73,True
+71286001,ryggmargskompresjon,N99,True
+4556007,gastritt,D87,True
+33659008,keloid,S99,True
+125605004,beinbrudd,L76,True
+735688001,frykt for urinveissykdom,U27,True
+102594003,unormalt EKG,A91,True
+89748001,akutt ulcus ventriculi med blødning,D86,True
+405944004,astmatisk bronkitt,R96,True
+63565007,medfødt anemi,B79,True
+89091004,ødem i øyelokk,F16,True
+95820000,bilateralt hørselstap,H86,True
+281239006,akutt astma,R96,True
+403059006,onykomykose i tånegler,S74,True
+387787005,trykkelveblest,S98,True
+723117006,frykt for muskel- og skjelettsykdom,L27,True
+192085004,sinnereaksjon,P04,True
+24693007,fibromyositt,L18,True
+428987008,har implantert P-stav,W14,True
+41446000,blefaritt,F72,True
+192119003,søskensjalusi,P22,True
+40979000,mangel på mosjon,A23,True
+25786006,unormal atferd,P29,True
+238575004,allergisk kontaktdermatitt,S88,True
+307177001,kronisk isjias,L86,True
+406578005,enterovirusinfeksjon i sentralnervesystemet,N70,True
+404220000,irritabel blære,U13,True
+112105008,endret luktesans,N16,True
+193570009,katarakt,F92,True
+508411000202108,trykksår på venstre kne kategori 4,S97,True
+402555001,multiple benigne melanocyttnevuser,S82,True
+11999007,latent tuberkulose,A70,True
+263244000,bimalleolært brudd,L73,True
+279069000,muskel- og skjelettsmerter,L29,True
+200973000,pustuløs psoriasis,S91,True
+86933000,høyt alkoholinntak,P15,True
+125610000,leddskade,L81,True
+372137005,primær brystkreft,X76,True
+84292000,forsinket menstruasjon,X05,True
+300197009,øreproblem,H29,True
+405737000,faryngitt,R74,True
+396230008,dermatomyositt,L99,True
+93880001,primær lungekreft,R84,True
+56038003,stafylokokkinfeksjon,A78,True
+85007004,meralgia parestetica,N81,True
+387604006,jetlag,A88,True
+93459000,fremmedlegeme i underhudsvev,S15,True
+125626004,skade på magesekk,D80,True
+54967001,dobbelt nyreanlegg,U85,True
+44001008,for tidlig utløsning,P08,True
+162004006,tannsymptomer,D19,True
+49388007,forstuing i fot,L79,True
+271594007,synkope,A06,True
+312999006,makulopati,F99,True
+71444005,cerebral trombose,K90,True
+275498002,luftveisinfeksjon,R83,True
+14756005,parotitt,D83,True
+211492005,kontusjon av os coccygis,L81,True
+21763005,skade på tenner,D80,True
+7093002,nyrekolikk,U14,True
+30171000175105,trykksår på venstre ankel kategori 3,S97,True
+202900007,synovitt og tenosynovitt,L87,True
+212317001,skade på nervus fibularis,N81,True
+29761000175107,trykksår på høyre hofte kategori 4,S97,True
+508421000202100,trykksår på høyre kne kategori 4,S97,True
+125602001,leggskade,L81,True
+424568000,fibrom,L97,True
+239987006,triggerfinger,L87,True
+192991000,klonisk anfall,N88,True
+27174002,pyelitt,U70,True
+66857006,hemoptyse,R24,True
+277908001,grønt oppspytt,R25,True
+169491004,kontroll av spiral,W12,True
+249220002,rift i skjede etter fødsel,W92,True
+48880000,blødning etter samleie,X13,True
+5132005,keratosis pilaris,S99,True
+81953000,anstrengelsesutløste brystsmerter,K01,True
+31928004,kutan abscess,S10,True
+59118001,høyre grenblokk,K84,True
+283021003,mobil tann,D19,True
+267954009,leddsmerter i ankel og/eller fot,L14,True
+262520005,tommelskade,L81,True
+192041001,akutt situasjonsbetinget forstyrrelse,P02,True
+425492002,generalisert dystoni,N99,True
+441509002,hjertepacemaker in situ,A89,True
+30800001,vaginitt,X84,True
+4776004,lichen planus,S99,True
+10725009,godartet hypertensjon,K86,True
+397513003,hordeolum,F72,True
+38911009,arvelig hemolytisk anemi,B78,True
+299060006,hevelse i finger,L12,True
+53057004,håndsmerter,L12,True
+84677008,brannskade på underekstremitet,S14,True
+60573004,aortaklaffestenose,K83,True
+282770002,ribbeinsskade,L81,True
+76902006,stivkrampe,N72,True
+167256004,positiv graviditetstest i urin,W78,True
+73415002,støyfremkalt hørselstap,H85,True
+386661006,feber,A03,True
+34563004,engstelig for kreft,A26,True
+95855003,traumatisk amputasjon av annen finger enn tommel,L81,True
+22075008,snøblindhet,F79,True
+403191005,andregradsforbrenning,S14,True
+386701004,utviklingsforstyrrelse av artikulasjon,P24,True
+162145001,smerter i vulva,X01,True
+254645002,malignt pleuralt mesoteliom,R85,True
+161923004,slimhoste med klart ekspektorat,R25,True
+89765005,tobakkavhengighet,P17,True
+21018002,inflammatorisk nevropati,N94,True
+239880009,spondylose i korsrygg,L84,True
+67882000,pruritus vulvae,X16,True
+262519004,flere skader,A81,True
+194005002,orbital cellulitt,F73,True
+33653009,sensibilitetstap,N06,True
+28651003,ortostatisk hypotensjon,K88,True
+1855002,læringsvansker på skolen,P24,True
+169449001,prøver å bli gravid,W29,True
+45418009,læringsvansker med grunnleggende muntlige ferdigheter,N19,True
+268637002,psykoseksuell dysfunksjon,P08,True
+271700006,chorea,N08,True
+67801009,tenosynovitt,L87,True
+363514001,ondartet svulst i kvinnelig kjønnsorgan,X77,True
+271771009,leddhevelse,L20,True
+274142002,Dupuytrens kontraktur,L87,True
+18643000,etmoidalsinusitt,R75,True
+49882001,viruseksantem,A76,True
+161887000,spontant blåmerke,S29,True
+102614006,generaliserte abdominalsmerter,D01,True
+788466008,repetitiv belastningsskade i overekstremitet,L79,True
+197983000,orkitt og epididymitt,Y74,True
+240711004,bleieutslett med candidiasis,S75,True
+68653001,anale smerter,D04,True
+87991007,kjønnsidentitetsforstyrrelse,A191,True
+109378008,ondartet mesoteliom,R85,True
+111982005,pakyonyki,S22,True
+125599006,håndskade,L81,True
+95421005,interkostalmyalgi,L18,True
+1489008,ekstern hordeolum,F72,True
+285045001,vansker med å bruke briller,F17,True
+415176004,primært medfødt glaukom,F81,True
+129128006,infeksiøs nyresykdom,U70,True
+199047001,falske rier,W99,True
+85777005,dakryocystitt,F73,True
+26650005,akutt trakeitt,R77,True
+55146009,sakroiliitt,L84,True
+30128009,Tietzes syndrom,L99,True
+34486009,hypertyreose,T85,True

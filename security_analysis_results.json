@@ -1,0 +1,530 @@
+{
+  "summary": {
+    "total_findings": 59,
+    "risk_summary": {
+      "High": 21,
+      "Medium": 2,
+      "Low": 36
+    },
+    "finding_types": {
+      "missing_header": 8,
+      "parameter_validation": 25,
+      "potential_injection": 17,
+      "parameter_pollution": 4,
+      "possible_ssrf": 4,
+      "caching_issue": 1
+    },
+    "header_analysis": {
+      "url": "https://fat.kote.helsedirektoratet.no/api/code-systems",
+      "additional_info": {
+        "status_code": 200,
+        "response_time": 0.29013,
+        "content_type": "application/json; charset=utf-8",
+        "content_length": "4696"
+      }
+    }
+  },
+  "findings": [
+    {
+      "type": "missing_header",
+      "header": "Strict-Transport-Security",
+      "description": "Missing HSTS header",
+      "risk": "Medium"
+    },
+    {
+      "type": "missing_header",
+      "header": "Content-Security-Policy",
+      "description": "Missing CSP header",
+      "risk": "Medium"
+    },
+    {
+      "type": "missing_header",
+      "header": "X-Content-Type-Options",
+      "description": "Missing X-Content-Type-Options header",
+      "risk": "Low"
+    },
+    {
+      "type": "missing_header",
+      "header": "X-Frame-Options",
+      "description": "Missing X-Frame-Options header",
+      "risk": "Low"
+    },
+    {
+      "type": "missing_header",
+      "header": "X-XSS-Protection",
+      "description": "Missing X-XSS-Protection header",
+      "risk": "Low"
+    },
+    {
+      "type": "missing_header",
+      "header": "Referrer-Policy",
+      "description": "Missing Referrer-Policy header",
+      "risk": "Low"
+    },
+    {
+      "type": "missing_header",
+      "header": "Feature-Policy",
+      "description": "Missing Feature-Policy/Permissions-Policy header",
+      "risk": "Low"
+    },
+    {
+      "type": "missing_header",
+      "header": "Cache-Control",
+      "description": "Missing Cache-Control header",
+      "risk": "Low"
+    },
+    {
+      "type": "parameter_validation",
+      "endpoint": "/api/medicines/clinical-drugs",
+      "parameter": "pageSize",
+      "value": "10000",
+      "description": "Endpoint accepts unusually large value for pageSize without error",
+      "risk": "Low"
+    },
+    {
+      "type": "potential_injection",
+      "endpoint": "/api/code-systems/ICD10",
+      "parameter": "pageSize",
+      "value": "999999",
+      "description": "Potential injection vulnerability detected",
+      "status_code": 400,
+      "error_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"PageSize\":[\"pageSize must be greater than zero and less than 5001....",
+      "risk": "High"
+    },
+    {
+      "type": "parameter_validation",
+      "endpoint": "/api/diagnosis/icpc2",
+      "parameter": "pageNumber",
+      "value": "999999",
+      "description": "Endpoint accepts unusually large value for pageNumber without error",
+      "risk": "Low"
+    },
+    {
+      "type": "parameter_validation",
+      "endpoint": "/api/medicines/clinical-drugs",
+      "parameter": "code",
+      "value": "' OR '1'='1",
+      "description": "Endpoint accepts unusually large value for code without error",
+      "risk": "Low"
+    },
+    {
+      "type": "potential_injection",
+      "endpoint": "/api/medicines/clinical-drugs",
+      "parameter": "pageNumber",
+      "value": "1 OR 1=1",
+      "description": "Potential injection vulnerability detected",
+      "status_code": 400,
+      "error_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"PageNumber\":[\"The value '1 OR 1=1' is not valid for PageNumber.\"]}...",
+      "risk": "High"
+    },
+    {
+      "type": "parameter_validation",
+      "endpoint": "/api/medicines/clinical-drugs",
+      "parameter": "conceptId",
+      "value": "' UNION SELECT NULL,NULL,NULL,NULL--",
+      "description": "Endpoint accepts unusually large value for conceptId without error",
+      "risk": "Low"
+    },
+    {
+      "type": "parameter_validation",
+      "endpoint": "/api/medicines/clinical-drugs",
+      "parameter": "includeInactive",
+      "value": "true' OR '1'='1",
+      "description": "Endpoint accepts unusually large value for includeInactive without error",
+      "risk": "Low"
+    },
+    {
+      "type": "parameter_validation",
+      "endpoint": "/api/medicines/clinical-drugs",
+      "parameter": "Accept-Language",
+      "value": "nb' OR '1'='1' --",
+      "description": "Endpoint accepts unusually large value for Accept-Language without error",
+      "risk": "Low"
+    },
+    {
+      "type": "potential_injection",
+      "endpoint": "/api/medicines/clinical-drugs",
+      "parameter": "pageSize",
+      "value": "{'$gt': 0}",
+      "description": "Potential injection vulnerability detected",
+      "status_code": 400,
+      "error_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"PageSize\":[\"The value '{'$gt': 0}' is not valid for PageSize.\"]},\"...",
+      "risk": "High"
+    },
+    {
+      "type": "potential_injection",
+      "endpoint": "/api/medicines/clinical-drugs",
+      "parameter": "pageNumber",
+      "value": "{'$ne': null}",
+      "description": "Potential injection vulnerability detected",
+      "status_code": 400,
+      "error_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"PageNumber\":[\"The value '{'$ne': null}' is not valid for PageNumbe...",
+      "risk": "High"
+    },
+    {
+      "type": "parameter_validation",
+      "endpoint": "/api/medicines/clinical-drugs",
+      "parameter": "code",
+      "value": "{$where: 'sleep(1000)'}",
+      "description": "Endpoint accepts unusually large value for code without error",
+      "risk": "Low"
+    },
+    {
+      "type": "parameter_validation",
+      "endpoint": "/api/medicines/clinical-drugs",
+      "parameter": "conceptId",
+      "value": "' || 1==1 || '",
+      "description": "Endpoint accepts unusually large value for conceptId without error",
+      "risk": "Low"
+    },
+    {
+      "type": "potential_injection",
+      "endpoint": "/api/medicines/clinical-drugs",
+      "parameter": "pageSize",
+      "value": "$(cat /etc/passwd)",
+      "description": "Potential injection vulnerability detected",
+      "status_code": 400,
+      "error_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"PageSize\":[\"The value '$(cat /etc/passwd)' is not valid for PageSi...",
+      "risk": "High"
+    },
+    {
+      "type": "potential_injection",
+      "endpoint": "/api/medicines/clinical-drugs",
+      "parameter": "pageNumber",
+      "value": "`cat /etc/passwd`",
+      "description": "Potential injection vulnerability detected",
+      "status_code": 400,
+      "error_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"PageNumber\":[\"The value '`cat /etc/passwd`' is not valid for PageN...",
+      "risk": "High"
+    },
+    {
+      "type": "parameter_validation",
+      "endpoint": "/api/medicines/clinical-drugs",
+      "parameter": "code",
+      "value": "|| cat /etc/passwd",
+      "description": "Endpoint accepts unusually large value for code without error",
+      "risk": "Low"
+    },
+    {
+      "type": "parameter_validation",
+      "endpoint": "/api/medicines/clinical-drugs",
+      "parameter": "conceptId",
+      "value": "& ping -c 10 127.0.0.1 &",
+      "description": "Endpoint accepts unusually large value for conceptId without error",
+      "risk": "Low"
+    },
+    {
+      "type": "parameter_validation",
+      "endpoint": "/api/code-systems/ICD10",
+      "parameter": "code",
+      "value": "' OR '1'='1",
+      "description": "Endpoint accepts unusually large value for code without error",
+      "risk": "Low"
+    },
+    {
+      "type": "potential_injection",
+      "endpoint": "/api/code-systems/ICD10",
+      "parameter": "pageNumber",
+      "value": "1 OR 1=1",
+      "description": "Potential injection vulnerability detected",
+      "status_code": 400,
+      "error_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"PageNumber\":[\"The value '1 OR 1=1' is not valid for PageNumber.\"]}...",
+      "risk": "High"
+    },
+    {
+      "type": "parameter_validation",
+      "endpoint": "/api/code-systems/ICD10",
+      "parameter": "conceptId",
+      "value": "' UNION SELECT NULL,NULL,NULL,NULL--",
+      "description": "Endpoint accepts unusually large value for conceptId without error",
+      "risk": "Low"
+    },
+    {
+      "type": "potential_injection",
+      "endpoint": "/api/code-systems/ICD10",
+      "parameter": "includeInactive",
+      "value": "true' OR '1'='1",
+      "description": "Potential injection vulnerability detected",
+      "status_code": 400,
+      "error_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"IncludeInactive\":[\"The value 'true' OR '1'='1' is not valid for In...",
+      "risk": "High"
+    },
+    {
+      "type": "parameter_validation",
+      "endpoint": "/api/code-systems/ICD10",
+      "parameter": "Accept-Language",
+      "value": "nb' OR '1'='1' --",
+      "description": "Endpoint accepts unusually large value for Accept-Language without error",
+      "risk": "Low"
+    },
+    {
+      "type": "potential_injection",
+      "endpoint": "/api/code-systems/ICD10",
+      "parameter": "pageSize",
+      "value": "{'$gt': 0}",
+      "description": "Potential injection vulnerability detected",
+      "status_code": 400,
+      "error_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"PageSize\":[\"The value '{'$gt': 0}' is not valid for PageSize.\"]},\"...",
+      "risk": "High"
+    },
+    {
+      "type": "potential_injection",
+      "endpoint": "/api/code-systems/ICD10",
+      "parameter": "pageNumber",
+      "value": "{'$ne': null}",
+      "description": "Potential injection vulnerability detected",
+      "status_code": 400,
+      "error_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"PageNumber\":[\"The value '{'$ne': null}' is not valid for PageNumbe...",
+      "risk": "High"
+    },
+    {
+      "type": "parameter_validation",
+      "endpoint": "/api/code-systems/ICD10",
+      "parameter": "code",
+      "value": "{$where: 'sleep(1000)'}",
+      "description": "Endpoint accepts unusually large value for code without error",
+      "risk": "Low"
+    },
+    {
+      "type": "parameter_validation",
+      "endpoint": "/api/code-systems/ICD10",
+      "parameter": "conceptId",
+      "value": "' || 1==1 || '",
+      "description": "Endpoint accepts unusually large value for conceptId without error",
+      "risk": "Low"
+    },
+    {
+      "type": "potential_injection",
+      "endpoint": "/api/code-systems/ICD10",
+      "parameter": "pageSize",
+      "value": "$(cat /etc/passwd)",
+      "description": "Potential injection vulnerability detected",
+      "status_code": 400,
+      "error_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"PageSize\":[\"The value '$(cat /etc/passwd)' is not valid for PageSi...",
+      "risk": "High"
+    },
+    {
+      "type": "potential_injection",
+      "endpoint": "/api/code-systems/ICD10",
+      "parameter": "pageNumber",
+      "value": "`cat /etc/passwd`",
+      "description": "Potential injection vulnerability detected",
+      "status_code": 400,
+      "error_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"PageNumber\":[\"The value '`cat /etc/passwd`' is not valid for PageN...",
+      "risk": "High"
+    },
+    {
+      "type": "parameter_validation",
+      "endpoint": "/api/code-systems/ICD10",
+      "parameter": "code",
+      "value": "|| cat /etc/passwd",
+      "description": "Endpoint accepts unusually large value for code without error",
+      "risk": "Low"
+    },
+    {
+      "type": "parameter_validation",
+      "endpoint": "/api/code-systems/ICD10",
+      "parameter": "conceptId",
+      "value": "& ping -c 10 127.0.0.1 &",
+      "description": "Endpoint accepts unusually large value for conceptId without error",
+      "risk": "Low"
+    },
+    {
+      "type": "parameter_validation",
+      "endpoint": "/api/diagnosis/icpc2",
+      "parameter": "code",
+      "value": "' OR '1'='1",
+      "description": "Endpoint accepts unusually large value for code without error",
+      "risk": "Low"
+    },
+    {
+      "type": "potential_injection",
+      "endpoint": "/api/diagnosis/icpc2",
+      "parameter": "pageNumber",
+      "value": "1 OR 1=1",
+      "description": "Potential injection vulnerability detected",
+      "status_code": 400,
+      "error_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"PageNumber\":[\"The value '1 OR 1=1' is not valid for PageNumber.\"]}...",
+      "risk": "High"
+    },
+    {
+      "type": "parameter_validation",
+      "endpoint": "/api/diagnosis/icpc2",
+      "parameter": "conceptId",
+      "value": "' UNION SELECT NULL,NULL,NULL,NULL--",
+      "description": "Endpoint accepts unusually large value for conceptId without error",
+      "risk": "Low"
+    },
+    {
+      "type": "parameter_validation",
+      "endpoint": "/api/diagnosis/icpc2",
+      "parameter": "includeInactive",
+      "value": "true' OR '1'='1",
+      "description": "Endpoint accepts unusually large value for includeInactive without error",
+      "risk": "Low"
+    },
+    {
+      "type": "parameter_validation",
+      "endpoint": "/api/diagnosis/icpc2",
+      "parameter": "Accept-Language",
+      "value": "nb' OR '1'='1' --",
+      "description": "Endpoint accepts unusually large value for Accept-Language without error",
+      "risk": "Low"
+    },
+    {
+      "type": "potential_injection",
+      "endpoint": "/api/diagnosis/icpc2",
+      "parameter": "pageSize",
+      "value": "{'$gt': 0}",
+      "description": "Potential injection vulnerability detected",
+      "status_code": 400,
+      "error_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"PageSize\":[\"The value '{'$gt': 0}' is not valid for PageSize.\"]},\"...",
+      "risk": "High"
+    },
+    {
+      "type": "potential_injection",
+      "endpoint": "/api/diagnosis/icpc2",
+      "parameter": "pageNumber",
+      "value": "{'$ne': null}",
+      "description": "Potential injection vulnerability detected",
+      "status_code": 400,
+      "error_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"PageNumber\":[\"The value '{'$ne': null}' is not valid for PageNumbe...",
+      "risk": "High"
+    },
+    {
+      "type": "parameter_validation",
+      "endpoint": "/api/diagnosis/icpc2",
+      "parameter": "code",
+      "value": "{$where: 'sleep(1000)'}",
+      "description": "Endpoint accepts unusually large value for code without error",
+      "risk": "Low"
+    },
+    {
+      "type": "parameter_validation",
+      "endpoint": "/api/diagnosis/icpc2",
+      "parameter": "conceptId",
+      "value": "' || 1==1 || '",
+      "description": "Endpoint accepts unusually large value for conceptId without error",
+      "risk": "Low"
+    },
+    {
+      "type": "potential_injection",
+      "endpoint": "/api/diagnosis/icpc2",
+      "parameter": "pageSize",
+      "value": "$(cat /etc/passwd)",
+      "description": "Potential injection vulnerability detected",
+      "status_code": 400,
+      "error_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"PageSize\":[\"The value '$(cat /etc/passwd)' is not valid for PageSi...",
+      "risk": "High"
+    },
+    {
+      "type": "potential_injection",
+      "endpoint": "/api/diagnosis/icpc2",
+      "parameter": "pageNumber",
+      "value": "`cat /etc/passwd`",
+      "description": "Potential injection vulnerability detected",
+      "status_code": 400,
+      "error_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"PageNumber\":[\"The value '`cat /etc/passwd`' is not valid for PageN...",
+      "risk": "High"
+    },
+    {
+      "type": "parameter_validation",
+      "endpoint": "/api/diagnosis/icpc2",
+      "parameter": "code",
+      "value": "|| cat /etc/passwd",
+      "description": "Endpoint accepts unusually large value for code without error",
+      "risk": "Low"
+    },
+    {
+      "type": "parameter_validation",
+      "endpoint": "/api/diagnosis/icpc2",
+      "parameter": "conceptId",
+      "value": "& ping -c 10 127.0.0.1 &",
+      "description": "Endpoint accepts unusually large value for conceptId without error",
+      "risk": "Low"
+    },
+    {
+      "type": "parameter_pollution",
+      "parameter": "pageNumber",
+      "description": "Endpoint accepts duplicate parameters with same value",
+      "test": "duplicate_same",
+      "risk": "Low"
+    },
+    {
+      "type": "parameter_pollution",
+      "parameter": "pageSize",
+      "description": "Endpoint accepts duplicate parameters with same value",
+      "test": "duplicate_same",
+      "risk": "Low"
+    },
+    {
+      "type": "parameter_pollution",
+      "parameter": "pageNumber",
+      "description": "Endpoint accepts duplicate parameters with same value",
+      "test": "duplicate_same",
+      "risk": "Low"
+    },
+    {
+      "type": "parameter_pollution",
+      "parameter": "pageSize",
+      "description": "Endpoint accepts duplicate parameters with same value",
+      "test": "duplicate_same",
+      "risk": "Low"
+    },
+    {
+      "type": "possible_ssrf",
+      "endpoint": "/api/code-systems",
+      "parameter": "url",
+      "value": "http://localhost:22",
+      "method": "GET",
+      "status_code": 200,
+      "risk": "High"
+    },
+    {
+      "type": "possible_ssrf",
+      "endpoint": "/api/code-systems",
+      "parameter": "callback",
+      "value": "http://localhost/admin",
+      "method": "GET",
+      "status_code": 200,
+      "risk": "High"
+    },
+    {
+      "type": "possible_ssrf",
+      "endpoint": "/api/medicines/clinical-drugs",
+      "parameter": "url",
+      "value": "http://localhost:22",
+      "method": "GET",
+      "status_code": 200,
+      "risk": "High"
+    },
+    {
+      "type": "possible_ssrf",
+      "endpoint": "/api/medicines/clinical-drugs",
+      "parameter": "callback",
+      "value": "http://localhost/admin",
+      "method": "GET",
+      "status_code": 200,
+      "risk": "High"
+    },
+    {
+      "type": "caching_issue",
+      "endpoint": "/api/medicines/clinical-drugs",
+      "description": "Server provides ETag but doesn't properly support conditional requests",
+      "etag": "2025-03-28T08:59:09.5436568Z",
+      "second_response_code": 200,
+      "risk": "Low"
+    }
+  ],
+  "all_headers": {
+    "Date": "Fri, 28 Mar 2025 11:54:52 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "4696",
+    "Connection": "keep-alive",
+    "x-ms-middleware-request-id": "00000000-0000-0000-0000-000000000000",
+    "Request-Context": "appId=cid-v1:3f31e0e0-3bfb-462b-9bdb-ffbddf4dae77",
+    "x-azure-ref": "20250328T115452Z-166d9985dff5j9sphC1AMS687c00000017d000000000ah4h",
+    "X-Cache": "CONFIG_NOCACHE",
+    "Accept-Ranges": "bytes"
+  }
+}

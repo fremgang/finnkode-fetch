@@ -1,0 +1,947 @@
+[
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "admin",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"admin\":[\"Cannot deserialize the current JSON object (e.g. {\\\"name\\...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "admin",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"admin\":[\"Cannot deserialize the current JSON object (e.g. {\\\"name\\...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "admin",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"admin\":[\"Cannot deserialize the current JSON object (e.g. {\\\"name\\...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "isAdmin",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"isAdmin\":[\"Cannot deserialize the current JSON object (e.g. {\\\"nam...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "isAdmin",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"isAdmin\":[\"Cannot deserialize the current JSON object (e.g. {\\\"nam...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "isAdmin",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"isAdmin\":[\"Cannot deserialize the current JSON object (e.g. {\\\"nam...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "role",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"role\":[\"Cannot deserialize the current JSON object (e.g. {\\\"name\\\"...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "role",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"role\":[\"Cannot deserialize the current JSON object (e.g. {\\\"name\\\"...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "role",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"role\":[\"Cannot deserialize the current JSON object (e.g. {\\\"name\\\"...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "roles",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"roles\":[\"Cannot deserialize the current JSON object (e.g. {\\\"name\\...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "roles",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"roles\":[\"Cannot deserialize the current JSON object (e.g. {\\\"name\\...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "roles",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"roles\":[\"Cannot deserialize the current JSON object (e.g. {\\\"name\\...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "permissions",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"permissions\":[\"Cannot deserialize the current JSON object (e.g. {\\...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "permissions",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"permissions\":[\"Cannot deserialize the current JSON object (e.g. {\\...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "permissions",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"permissions\":[\"Cannot deserialize the current JSON object (e.g. {\\...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "isVerified",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"isVerified\":[\"Cannot deserialize the current JSON object (e.g. {\\\"...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "isVerified",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"isVerified\":[\"Cannot deserialize the current JSON object (e.g. {\\\"...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "isVerified",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"isVerified\":[\"Cannot deserialize the current JSON object (e.g. {\\\"...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "verified",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"verified\":[\"Cannot deserialize the current JSON object (e.g. {\\\"na...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "verified",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"verified\":[\"Cannot deserialize the current JSON object (e.g. {\\\"na...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "verified",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"verified\":[\"Cannot deserialize the current JSON object (e.g. {\\\"na...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "access_level",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"access_level\":[\"Cannot deserialize the current JSON object (e.g. {...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "access_level",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"access_level\":[\"Cannot deserialize the current JSON object (e.g. {...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "access_level",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"access_level\":[\"Cannot deserialize the current JSON object (e.g. {...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "accessLevel",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"accessLevel\":[\"Cannot deserialize the current JSON object (e.g. {\\...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "accessLevel",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"accessLevel\":[\"Cannot deserialize the current JSON object (e.g. {\\...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "accessLevel",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"accessLevel\":[\"Cannot deserialize the current JSON object (e.g. {\\...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "userType",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"userType\":[\"Cannot deserialize the current JSON object (e.g. {\\\"na...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "userType",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"userType\":[\"Cannot deserialize the current JSON object (e.g. {\\\"na...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "userType",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"userType\":[\"Cannot deserialize the current JSON object (e.g. {\\\"na...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "user_type",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"user_type\":[\"Cannot deserialize the current JSON object (e.g. {\\\"n...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "user_type",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"user_type\":[\"Cannot deserialize the current JSON object (e.g. {\\\"n...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "user_type",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"user_type\":[\"Cannot deserialize the current JSON object (e.g. {\\\"n...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "accountType",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"accountType\":[\"Cannot deserialize the current JSON object (e.g. {\\...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "accountType",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"accountType\":[\"Cannot deserialize the current JSON object (e.g. {\\...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "accountType",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"accountType\":[\"Cannot deserialize the current JSON object (e.g. {\\...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "account_type",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"account_type\":[\"Cannot deserialize the current JSON object (e.g. {...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "account_type",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"account_type\":[\"Cannot deserialize the current JSON object (e.g. {...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "account_type",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"account_type\":[\"Cannot deserialize the current JSON object (e.g. {...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "isActive",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"isActive\":[\"Cannot deserialize the current JSON object (e.g. {\\\"na...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "isActive",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"isActive\":[\"Cannot deserialize the current JSON object (e.g. {\\\"na...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "isActive",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"isActive\":[\"Cannot deserialize the current JSON object (e.g. {\\\"na...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "active",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"active\":[\"Cannot deserialize the current JSON object (e.g. {\\\"name...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "active",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"active\":[\"Cannot deserialize the current JSON object (e.g. {\\\"name...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "active",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"active\":[\"Cannot deserialize the current JSON object (e.g. {\\\"name...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "enabled",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"enabled\":[\"Cannot deserialize the current JSON object (e.g. {\\\"nam...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "enabled",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"enabled\":[\"Cannot deserialize the current JSON object (e.g. {\\\"nam...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "enabled",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"enabled\":[\"Cannot deserialize the current JSON object (e.g. {\\\"nam...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "isEnabled",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"isEnabled\":[\"Cannot deserialize the current JSON object (e.g. {\\\"n...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "isEnabled",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"isEnabled\":[\"Cannot deserialize the current JSON object (e.g. {\\\"n...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "isEnabled",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"isEnabled\":[\"Cannot deserialize the current JSON object (e.g. {\\\"n...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "isPremium",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"isPremium\":[\"Cannot deserialize the current JSON object (e.g. {\\\"n...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "isPremium",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"isPremium\":[\"Cannot deserialize the current JSON object (e.g. {\\\"n...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "isPremium",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"isPremium\":[\"Cannot deserialize the current JSON object (e.g. {\\\"n...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "premium",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"premium\":[\"Cannot deserialize the current JSON object (e.g. {\\\"nam...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "premium",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"premium\":[\"Cannot deserialize the current JSON object (e.g. {\\\"nam...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "premium",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"premium\":[\"Cannot deserialize the current JSON object (e.g. {\\\"nam...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "isGold",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"isGold\":[\"Cannot deserialize the current JSON object (e.g. {\\\"name...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "isGold",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"isGold\":[\"Cannot deserialize the current JSON object (e.g. {\\\"name...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "isGold",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"isGold\":[\"Cannot deserialize the current JSON object (e.g. {\\\"name...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "isSilver",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"isSilver\":[\"Cannot deserialize the current JSON object (e.g. {\\\"na...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "isSilver",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"isSilver\":[\"Cannot deserialize the current JSON object (e.g. {\\\"na...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "isSilver",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"isSilver\":[\"Cannot deserialize the current JSON object (e.g. {\\\"na...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "id",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"id\":[\"Cannot deserialize the current JSON object (e.g. {\\\"name\\\":\\...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "name",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"id\":[\"Cannot deserialize the current JSON object (e.g. {\\\"name\\\":\\...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "id",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"id\":[\"Cannot deserialize the current JSON object (e.g. {\\\"name\\\":\\...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "name",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"id\":[\"Cannot deserialize the current JSON object (e.g. {\\\"name\\\":\\...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "id",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"id\":[\"Cannot deserialize the current JSON object (e.g. {\\\"name\\\":\\...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "name",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"id\":[\"Cannot deserialize the current JSON object (e.g. {\\\"name\\\":\\...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "id",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"id\":[\"Cannot deserialize the current JSON object (e.g. {\\\"name\\\":\\...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "name",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"id\":[\"Cannot deserialize the current JSON object (e.g. {\\\"name\\\":\\...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "id",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"id\":[\"Cannot deserialize the current JSON object (e.g. {\\\"name\\\":\\...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "name",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"id\":[\"Cannot deserialize the current JSON object (e.g. {\\\"name\\\":\\...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "id",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"id\":[\"Cannot deserialize the current JSON object (e.g. {\\\"name\\\":\\...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "name",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"id\":[\"Cannot deserialize the current JSON object (e.g. {\\\"name\\\":\\...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "id",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"id\":[\"Cannot deserialize the current JSON object (e.g. {\\\"name\\\":\\...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "name",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"id\":[\"Cannot deserialize the current JSON object (e.g. {\\\"name\\\":\\...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "id",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"id\":[\"Cannot deserialize the current JSON object (e.g. {\\\"name\\\":\\...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "name",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"id\":[\"Cannot deserialize the current JSON object (e.g. {\\\"name\\\":\\...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "id",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"id\":[\"Cannot deserialize the current JSON object (e.g. {\\\"name\\\":\\...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "name",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"id\":[\"Cannot deserialize the current JSON object (e.g. {\\\"name\\\":\\...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "id",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"id\":[\"Cannot deserialize the current JSON object (e.g. {\\\"name\\\":\\...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "name",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"id\":[\"Cannot deserialize the current JSON object (e.g. {\\\"name\\\":\\...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "id",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"id\":[\"Cannot deserialize the current JSON object (e.g. {\\\"name\\\":\\...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "name",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"id\":[\"Cannot deserialize the current JSON object (e.g. {\\\"name\\\":\\...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "id",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"id\":[\"Cannot deserialize the current JSON object (e.g. {\\\"name\\\":\\...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "name",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"id\":[\"Cannot deserialize the current JSON object (e.g. {\\\"name\\\":\\...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "id",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"id\":[\"Cannot deserialize the current JSON object (e.g. {\\\"name\\\":\\...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "name",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"id\":[\"Cannot deserialize the current JSON object (e.g. {\\\"name\\\":\\...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "id",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"id\":[\"Cannot deserialize the current JSON object (e.g. {\\\"name\\\":\\...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "name",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"id\":[\"Cannot deserialize the current JSON object (e.g. {\\\"name\\\":\\...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "id",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"id\":[\"Cannot deserialize the current JSON object (e.g. {\\\"name\\\":\\...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "name",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"id\":[\"Cannot deserialize the current JSON object (e.g. {\\\"name\\\":\\...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "id",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"id\":[\"Cannot deserialize the current JSON object (e.g. {\\\"name\\\":\\...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "name",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"id\":[\"Cannot deserialize the current JSON object (e.g. {\\\"name\\\":\\...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "id",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"id\":[\"Cannot deserialize the current JSON object (e.g. {\\\"name\\\":\\...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "name",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"id\":[\"Cannot deserialize the current JSON object (e.g. {\\\"name\\\":\\...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "id",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"id\":[\"Cannot deserialize the current JSON object (e.g. {\\\"name\\\":\\...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "name",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"id\":[\"Cannot deserialize the current JSON object (e.g. {\\\"name\\\":\\...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "id",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"id\":[\"Cannot deserialize the current JSON object (e.g. {\\\"name\\\":\\...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "name",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"id\":[\"Cannot deserialize the current JSON object (e.g. {\\\"name\\\":\\...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "id",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"id\":[\"Cannot deserialize the current JSON object (e.g. {\\\"name\\\":\\...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "name",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"id\":[\"Cannot deserialize the current JSON object (e.g. {\\\"name\\\":\\...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "id",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"id\":[\"Cannot deserialize the current JSON object (e.g. {\\\"name\\\":\\...",
+    "risk": "Medium"
+  },
+  {
+    "type": "parameter_processed",
+    "endpoint": "/api/fest/merkevarer",
+    "method": "POST",
+    "parameter": "name",
+    "status_code": 400,
+    "response_preview": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"id\":[\"Cannot deserialize the current JSON object (e.g. {\\\"name\\\":\\...",
+    "risk": "Medium"
+  }
+]

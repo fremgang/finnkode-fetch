@@ -1,0 +1,212 @@
+[
+  {
+    "name": "ICPC-2",
+    "relations": [
+      {
+        "rel": "codesystem#get-all",
+        "href": "app-fsml-fat-prod-noe-1.azurewebsites.net/icpc2"
+      },
+      {
+        "rel": "codesystem#lookup-code",
+        "href": "app-fsml-fat-prod-noe-1.azurewebsites.net/icpc2/{code}"
+      },
+      {
+        "rel": "codesystem#lookup-code-children",
+        "href": "app-fsml-fat-prod-noe-1.azurewebsites.net/icpc2/{code}/children"
+      },
+      {
+        "rel": "codesystem#lookup-code-descendants",
+        "href": "app-fsml-fat-prod-noe-1.azurewebsites.net/icpc2/{code}/descendants"
+      },
+      {
+        "rel": "codesystem#lookup-code-hierarchy",
+        "href": "app-fsml-fat-prod-noe-1.azurewebsites.net/icpc2/{code}/hierarchy"
+      },
+      {
+        "rel": "codesystem#lookup-code-chapter-descendants",
+        "href": "app-fsml-fat-prod-noe-1.azurewebsites.net/icpc2/{code}/chapter"
+      }
+    ]
+  },
+  {
+    "name": "ICD-10",
+    "relations": [
+      {
+        "rel": "codesystem#get-all",
+        "href": "app-fsml-fat-prod-noe-1.azurewebsites.net/icd10"
+      },
+      {
+        "rel": "codesystem#lookup-code",
+        "href": "app-fsml-fat-prod-noe-1.azurewebsites.net/icd10/{code}"
+      },
+      {
+        "rel": "codesystem#lookup-code-children",
+        "href": "app-fsml-fat-prod-noe-1.azurewebsites.net/icd10/{code}/children"
+      },
+      {
+        "rel": "codesystem#lookup-code-descendants",
+        "href": "app-fsml-fat-prod-noe-1.azurewebsites.net/icd10/{code}/descendants"
+      },
+      {
+        "rel": "codesystem#lookup-code-hierarchy",
+        "href": "app-fsml-fat-prod-noe-1.azurewebsites.net/icd10/{code}/hierarchy"
+      },
+      {
+        "rel": "codesystem#lookup-code-chapter-descendants",
+        "href": "app-fsml-fat-prod-noe-1.azurewebsites.net/icd10/{code}/chapter"
+      }
+    ]
+  },
+  {
+    "name": "NKPK",
+    "relations": [
+      {
+        "rel": "codesystem#get-all",
+        "href": "app-fsml-fat-prod-noe-1.azurewebsites.net/nkpk"
+      },
+      {
+        "rel": "codesystem#lookup-code",
+        "href": "app-fsml-fat-prod-noe-1.azurewebsites.net/nkpk/{code}"
+      },
+      {
+        "rel": "codesystem#lookup-code-children",
+        "href": "app-fsml-fat-prod-noe-1.azurewebsites.net/nkpk/{code}/children"
+      },
+      {
+        "rel": "codesystem#lookup-code-descendants",
+        "href": "app-fsml-fat-prod-noe-1.azurewebsites.net/nkpk/{code}/descendants"
+      },
+      {
+        "rel": "codesystem#lookup-code-hierarchy",
+        "href": "app-fsml-fat-prod-noe-1.azurewebsites.net/nkpk/{code}/hierarchy"
+      },
+      {
+        "rel": "codesystem#lookup-code-chapter-descendants",
+        "href": "app-fsml-fat-prod-noe-1.azurewebsites.net/nkpk/{code}/chapter"
+      }
+    ]
+  },
+  {
+    "name": "PHBU",
+    "relations": [
+      {
+        "rel": "codesystem#get-all",
+        "href": "app-fsml-fat-prod-noe-1.azurewebsites.net/phbu"
+      },
+      {
+        "rel": "codesystem#lookup-code",
+        "href": "app-fsml-fat-prod-noe-1.azurewebsites.net/phbu/{code}"
+      },
+      {
+        "rel": "codesystem#lookup-code-children",
+        "href": "app-fsml-fat-prod-noe-1.azurewebsites.net/phbu/{code}/children"
+      },
+      {
+        "rel": "codesystem#lookup-code-descendants",
+        "href": "app-fsml-fat-prod-noe-1.azurewebsites.net/phbu/{code}/descendants"
+      },
+      {
+        "rel": "codesystem#lookup-code-hierarchy",
+        "href": "app-fsml-fat-prod-noe-1.azurewebsites.net/phbu/{code}/hierarchy"
+      },
+      {
+        "rel": "codesystem#lookup-code-chapter-descendants",
+        "href": "app-fsml-fat-prod-noe-1.azurewebsites.net/phbu/{code}/chapter"
+      }
+    ]
+  },
+  {
+    "name": "NORPAT",
+    "relations": [
+      {
+        "rel": "codesystem#get-all",
+        "href": "app-fsml-fat-prod-noe-1.azurewebsites.net/norpat"
+      },
+      {
+        "rel": "codesystem#lookup-code",
+        "href": "app-fsml-fat-prod-noe-1.azurewebsites.net/norpat/{code}"
+      },
+      {
+        "rel": "codesystem#lookup-code-children",
+        "href": "app-fsml-fat-prod-noe-1.azurewebsites.net/norpat/{code}/children"
+      },
+      {
+        "rel": "codesystem#lookup-code-descendants",
+        "href": "app-fsml-fat-prod-noe-1.azurewebsites.net/norpat/{code}/descendants"
+      },
+      {
+        "rel": "codesystem#lookup-code-hierarchy",
+        "href": "app-fsml-fat-prod-noe-1.azurewebsites.net/norpat/{code}/hierarchy"
+      },
+      {
+        "rel": "codesystem#lookup-code-chapter-descendants",
+        "href": "app-fsml-fat-prod-noe-1.azurewebsites.net/norpat/{code}/chapter"
+      }
+    ]
+  },
+  {
+    "name": "Anatomisk lokalisasjon",
+    "relations": [
+      {
+        "rel": "codesystem#get-all",
+        "href": "app-fsml-fat-prod-noe-1.azurewebsites.net/anatomisk"
+      },
+      {
+        "rel": "codesystem#lookup-code",
+        "href": "app-fsml-fat-prod-noe-1.azurewebsites.net/anatomisk/{code}"
+      }
+    ]
+  },
+  {
+    "name": "Tekstlige resultatverdier",
+    "relations": [
+      {
+        "rel": "codesystem#get-all",
+        "href": "app-fsml-fat-prod-noe-1.azurewebsites.net/tekstligeresultatverdier"
+      },
+      {
+        "rel": "codesystem#lookup-code",
+        "href": "app-fsml-fat-prod-noe-1.azurewebsites.net/tekstligeresultatverdier/{code}"
+      }
+    ]
+  },
+  {
+    "name": "Pr\u00f8vemateriale",
+    "relations": [
+      {
+        "rel": "codesystem#get-all",
+        "href": "app-fsml-fat-prod-noe-1.azurewebsites.net/provemateriale"
+      },
+      {
+        "rel": "codesystem#lookup-code",
+        "href": "app-fsml-fat-prod-noe-1.azurewebsites.net/provemateriale/{code}"
+      }
+    ]
+  },
+  {
+    "name": "Norsk laboratoriekodeverk",
+    "relations": [
+      {
+        "rel": "codesystem#get-all",
+        "href": "app-fsml-fat-prod-noe-1.azurewebsites.net/nlk"
+      },
+      {
+        "rel": "codesystem#lookup-code",
+        "href": "app-fsml-fat-prod-noe-1.azurewebsites.net/nlk/{code}"
+      }
+    ]
+  },
+  {
+    "name": "Unders\u00f8kelsesmetode",
+    "relations": [
+      {
+        "rel": "codesystem#get-all",
+        "href": "app-fsml-fat-prod-noe-1.azurewebsites.net/undersokelsesmetode"
+      },
+      {
+        "rel": "codesystem#lookup-code",
+        "href": "app-fsml-fat-prod-noe-1.azurewebsites.net/undersokelsesmetode/{code}"
+      }
+    ]
+  }
+]
